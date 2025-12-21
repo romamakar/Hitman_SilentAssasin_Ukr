@@ -38,7 +38,7 @@ jobs:
       - name: Upload installer
         uses: softprops/action-gh-release@v2
         with:
-          files: "C:\\actions-runner\\_work\\Hitman_SilentAssasin_Ukr\\Hitman_SilentAssasin_Ukr\\installer\\Output\\HitmanSilentAssassin_Ukr1_01.exe"
+          files: "C:\\actions-runner-sa\\_work\\Hitman_SilentAssasin_Ukr\\Hitman_SilentAssasin_Ukr\\installer\\Output\\HitmanSilentAssassin_Ukr1_01.exe"
           tag_name: "exe"  # Можна використовувати будь-який тег, якщо потрібно
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
