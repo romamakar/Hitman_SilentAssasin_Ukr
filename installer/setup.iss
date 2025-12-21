@@ -21,7 +21,7 @@ DisableDirPage=no
 ;PrivilegesRequired=lowest
 OutputBaseFilename=HitmanSilentAssassin_Ukr1_01
 OutputDir=Output
-SetupIconFile=C:\actions-runner\_work\Hitman_SilentAssasin_Ukr\Hitman_SilentAssasin_Ukr\installer\installer.ico
+SetupIconFile=C:\actions-runner-sa\_work\Hitman_SilentAssasin_Ukr\Hitman_SilentAssasin_Ukr\installer\installer.ico
 SolidCompression=yes
 WizardStyle=modern dynamic
 
@@ -30,7 +30,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 
 [Files]
-Source: "C:\actions-runner\_work\Hitman_SilentAssasin_Ukr\Hitman_SilentAssasin_Ukr\output\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\actions-runner-sa\_work\Hitman_SilentAssasin_Ukr\Hitman_SilentAssasin_Ukr\output\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Run]
