@@ -34,5 +34,5 @@ Source: "C:\actions-runner-sa\_work\Hitman_SilentAssasin_Ukr\Hitman_SilentAssasi
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Run]
-Filename:"{app}\hitman.exe"; Description:"Запустити Hitman 2 Silent Assassin"; Flags: postinstall nowait shellexec
+Filename:"{app}\hitman2.exe"; Description:"Запустити Hitman 2 Silent Assassin"; Flags: postinstall nowait shellexec
 
