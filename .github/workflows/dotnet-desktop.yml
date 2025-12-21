@@ -1,0 +1,52 @@
+name: Build and Release Zip
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4    
+        with:
+         lfs: true
+
+      - name: Restore dependencies
+        working-directory: tools/DeSerializator
+        run: dotnet restore
+
+      - name: Build the project
+        working-directory: tools/DeSerializator
+        run: dotnet build --configuration Release
+
+      - name: Run the program to generate the zip
+        run: .\tools\DeSerializator\DeSerializator\bin\Release\net8.0\DeSerializator.exe
+        shell: powershell
+
+      - name: Unzip file
+        run: |
+          Expand-Archive -Path "Hitman_SA_Ukr.zip" -DestinationPath "output" -Force
+
+      - name: Build installer (silent)
+        shell: cmd
+        run: '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "%GITHUB_WORKSPACE%\installer\setup.iss"'
+
+      - name: Upload installer
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "C:\\actions-runner\\_work\\Hitman_SilentAssasin_Ukr\\Hitman_SilentAssasin_Ukr\\installer\\Output\\HitmanSilentAssassin_Ukr1_01.exe"
+          tag_name: "exe"  # Можна використовувати будь-який тег, якщо потрібно
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload release asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "Hitman_SA_Ukr.zip"
+          tag_name: "zip"  # Можна використовувати будь-який тег, якщо потрібно
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

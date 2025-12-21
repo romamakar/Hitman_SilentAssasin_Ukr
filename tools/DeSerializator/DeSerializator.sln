@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeSerializator", "DeSerializator\DeSerializator.csproj", "{F4363275-377F-4751-869B-F8AD71459DEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4363275-377F-4751-869B-F8AD71459DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4363275-377F-4751-869B-F8AD71459DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4363275-377F-4751-869B-F8AD71459DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4363275-377F-4751-869B-F8AD71459DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D3C0A44-781A-4D7E-8592-E790D53D8E74}
+	EndGlobalSection
+EndGlobal

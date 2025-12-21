@@ -1,0 +1,2135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HitmanLOC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MainPart name="AllLevels">
+    <Item name="Actions">
+      <Item name="Activate">Активувати</Item>
+      <Item name="Basement">Підвал</Item>
+      <Item name="CallAgency">Визвати агенцію</Item>
+      <Item name="CallElevator">Визвати ліфт</Item>
+      <Item name="ChangeClothes">Змінити одяг</Item>
+      <Item name="ClimbOverWall">Перелізти через стіну</Item>
+      <Item name="ClimbThroughWindow">Перелізти через вікно</Item>
+      <Item name="Close">Закрити</Item>
+      <Item name="CloseDoor">Закрити двері</Item>
+      <Item name="Deactivate">Деактивувати</Item>
+      <Item name="DeactivateLaser">Деактивувати лазер</Item>
+      <Item name="Drag">Тягнути</Item>
+      <Item name="DropBody">Кинути тіло</Item>
+      <Item name="DropItemDownChute">Кинути предмет в яму</Item>
+      <Item name="FirstBasement">1-й підвал</Item>
+      <Item name="FirstFloor">1-й поверх</Item>
+      <Item name="Holster">Кобура</Item>
+      <Item name="NotEquipped" />
+      <Item name="Open">Відкрити</Item>
+      <Item name="OpenDoor">Відкрити двері</Item>
+      <Item name="PeekHole">Глянути через замок</Item>
+      <Item name="PickLock">Відімкнути замок</Item>
+      <Item name="Pickup">Взяти %s</Item>
+      <Item name="PlaceBomb">Покласти бомбу</Item>
+      <Item name="PlaceItem">Покласти предмет</Item>
+      <Item name="PlaceX">Покласти %s</Item>
+      <Item name="PoisonTarget">Отруїти ціль</Item>
+      <Item name="PoisonWater">Отруїти воду</Item>
+      <Item name="PressButton">Натиснути кнопку</Item>
+      <Item name="RunToggle">Перемкнути біг</Item>
+      <Item name="SecondBasement">2-й підвал</Item>
+      <Item name="TakeClothes">Взяти одяг</Item>
+      <Item name="ToggleGenerator">Перемкнути генератор</Item>
+    </Item>
+    <Item name="Buttons">
+      <Item name="Action">Виконати дію</Item>
+      <Item name="Aim">Прицілитися</Item>
+      <Item name="Crouch">Повзти</Item>
+      <Item name="CycleBinocular">Взяти бінокль</Item>
+      <Item name="CycleCloseCombat">Взяти зброю ближнього бою</Item>
+      <Item name="CycleLighter">Взяти запальничку</Item>
+      <Item name="CycleLockpick">Взяти відмички</Item>
+      <Item name="CycleNVG">Взяти темновізор</Item>
+      <Item name="CyclePistols">Взяти пістолет</Item>
+      <Item name="CycleRifles">Взяти рушницю</Item>
+      <Item name="CycleSMG">Взяти автомат</Item>
+      <Item name="Drop">Кинути предмет</Item>
+      <Item name="Equip">Взяти предмет</Item>
+      <Item name="FireWeapon">Стріляти</Item>
+      <Item name="HolsterUnholster">Сховати/вийняти зброю</Item>
+      <Item name="Inventory">Відкрити інвентарій</Item>
+      <Item name="Lean">Нахилитися</Item>
+      <Item name="LeanLeft">Нахилитися вліво</Item>
+      <Item name="LeanRight">Нахилитися вправо</Item>
+      <Item name="MapBriefing">Відкрити карту та інструкції</Item>
+      <Item name="MouseButtons">
+        <Item name="Button1">Ліва кнопка миші</Item>
+        <Item name="Button10">Миша вправо</Item>
+        <Item name="Button11">Миша вліво</Item>
+        <Item name="Button2">Права кнопка миші</Item>
+        <Item name="Button3">Середня кнопка миші</Item>
+        <Item name="Button4">4 кнопка миші</Item>
+        <Item name="Button5">5 кнопка миші</Item>
+        <Item name="Button6">Колесо миші вгору</Item>
+        <Item name="Button7">Колесо миші вниз</Item>
+        <Item name="Button8">Миша вгору</Item>
+        <Item name="Button9">Миша вниз</Item>
+      </Item>
+      <Item name="MoveBackward">Рух назад</Item>
+      <Item name="MoveForward">Рух вперед</Item>
+      <Item name="MoveLeft">Рух вліво</Item>
+      <Item name="Movement">Рух</Item>
+      <Item name="MoveRight">Рух вправо</Item>
+      <Item name="PS2">
+        <Item name="DirectionalButtons">Кнопки напрямку</Item>
+        <Item name="L1">Кнопка L1</Item>
+        <Item name="L2">Кнопка L2</Item>
+        <Item name="L3">Кнопка L3</Item>
+        <Item name="LeftAnalog">Лівий джойстик</Item>
+        <Item name="R1">Кнопка R1</Item>
+        <Item name="R2">Кнопка R2</Item>
+        <Item name="R3">Кнопка R3</Item>
+        <Item name="RightAnalog">Правий джойстик</Item>
+        <Item name="SelectButton">Кнопка вибору</Item>
+      </Item>
+      <Item name="QuickInventory">Озброїтись/Інвентарій</Item>
+      <Item name="ReloadWeapon">Перезарядити</Item>
+      <Item name="Run">Бігти</Item>
+      <Item name="RunToggle">Постійний біг</Item>
+      <Item name="ShowBriefing">Відкрити інструкції</Item>
+      <Item name="ShowMap">Відкрити карту</Item>
+      <Item name="SlowAim">Точне прицілювання</Item>
+      <Item name="Sneak">Крастися</Item>
+      <Item name="ToggleCamera">Змінити камеру</Item>
+      <Item name="Xbox">
+        <Item name="BackButton">Кнопка назад</Item>
+        <Item name="BlackButton">Чорна кнопка</Item>
+        <Item name="ClickLeftThumb">Натиснути лівий джойстик</Item>
+        <Item name="ClickRightThumb">Натиснути правий джойстик</Item>
+        <Item name="DirectionalButtons">Подушка керування</Item>
+        <Item name="DirectionalDown">Подушка керування вниз</Item>
+        <Item name="DirectionalLeft">Подушка керування вліво</Item>
+        <Item name="DirectionalRight">Подушка керування вправо</Item>
+        <Item name="DirectionalUp">Подушка керування вгору</Item>
+        <Item name="LeftAnalog">Лівий джойстик</Item>
+        <Item name="LeftThumbButton">Кнопка лівого джойстика</Item>
+        <Item name="LeftTrigger">Лівий трігер</Item>
+        <Item name="RightAnalog">Правий джойстик</Item>
+        <Item name="RightThumbButton">Кнопка правого джойстика</Item>
+        <Item name="RightTrigger">Правий трігер</Item>
+        <Item name="WhiteButton">Біла кнопка</Item>
+      </Item>
+      <Item name="Zoom">Наближення</Item>
+      <Item name="ZoomIn">Наблизити</Item>
+      <Item name="ZoomOut">Віддалити</Item>
+    </Item>
+    <Item name="Civilians">
+      <Item name="1">Напоміч!</Item>
+      <Item name="2">Ой ніііі!</Item>
+      <Item name="3">Ооой...будь ласка, ніііі!</Item>
+      <Item name="4">Оуч!</Item>
+      <Item name="5">Угх!</Item>
+      <Item name="6">Ааааргх!</Item>
+      <Item name="7">Пустіть - я нічого не бачив!</Item>
+      <Item name="8">Гей - я бачив тебе раніше в Ротердамі! Ааааргх....!</Item>
+      <Item name="9">Будь... ласка... гууу-ук!</Item>
+    </Item>
+    <Item name="Equip">
+      <Item name="AvailableWeapons">Наявна зброя</Item>
+      <Item name="Continue">Продовжити</Item>
+      <Item name="Equipped">Взято</Item>
+      <Item name="EquippedWeapons">Взята зброя</Item>
+      <Item name="Quit">Вийти</Item>
+    </Item>
+    <Item name="ExtraCharacters">
+      <Item name="ExtraCharacters">&lt;_&gt;Хîîîîîîîî+</Item>
+    </Item>
+    <Item name="Guards">
+      <Item name="WarnTooClose">
+        <Item name="1">
+          <Item name="1Guard">Що це з тобою? Тримайся далі від мене!</Item>
+        </Item>
+      </Item>
+      <Item name="WarnTrespassing">
+        <Item name="1">
+          <Item name="1Guard">Гей! Тримайся звідти подалі!</Item>
+        </Item>
+      </Item>
+    </Item>
+    <Item name="Info">
+      <Item name="BombHasBeenArmed">Бомба була озброєна</Item>
+      <Item name="BonusSave">Тебе нагородили додатковим збереженням</Item>
+      <Item name="CivilianHasWarnedGuards">Цивільний попередив охорону</Item>
+      <Item name="CivilianSpotBarret">Цивільний знайшов рушницю МІ95</Item>
+      <Item name="deadbody">Охорона знайшла труп</Item>
+      <Item name="DoorLocked">Двері замкнуті</Item>
+      <Item name="FoundDeadDress">
+        <Item name="Ambassador">Охорона знайшла труп посла</Item>
+        <Item name="ArmySheikColonel_01">Охорона знайшла труп полковника</Item>
+        <Item name="ArmySheikLieutenant#0">Охорона знайшла тіло лейтенанта</Item>
+        <Item name="ArmySheikLieutenant_01">Охорона знайшла труп лейтенанта</Item>
+        <Item name="ArmySheikSoldier_01">Охорона знайшла труп солдата</Item>
+        <Item name="BodyguardFemaleSidjan_01">Охорона знайшла охоронця</Item>
+        <Item name="BodyguardFemaleSidjan_02">Охорона знайшла охоронця</Item>
+        <Item name="BodyguardFemaleSidjan_03">Охорона знайшла охоронця</Item>
+        <Item name="BodyguardIndia_01">Охорона знайшла труп охоронця</Item>
+        <Item name="BodyguardMafia_01">Охорона знайшла труп охоронця</Item>
+        <Item name="BodyguardMafiaJapanese_01">Охорона знайшла труп охоронця</Item>
+        <Item name="BodyguardMafiaJapanese_02">Охорона знайшла труп охоронця</Item>
+        <Item name="BodyguardMafiaRussian_01">Охорона знайшла труп охоронця</Item>
+        <Item name="BodyguardMafiaRussian_02">Охорона знайшла труп охоронця</Item>
+        <Item name="CharlieSidjanTwin_01">Охорона знайшла тіло Чарлі</Item>
+        <Item name="CharlieSidjanTwin_02">Охорона знайшла тіло Чарлі</Item>
+        <Item name="Chef">Охорона знайшла труп шефа</Item>
+        <Item name="ChefFemale">Охорона знайшла труп шефа</Item>
+        <Item name="ChefJapanese">Охорона знайшла труп шефа</Item>
+        <Item name="Concubine">Охорона знайшла труп наложниці</Item>
+        <Item name="ContractKillerCult_01">Охорона знайшла труп найманого вбивці</Item>
+        <Item name="ContractKillerCult_02">Охорона знайшла труп найманого вбивці</Item>
+        <Item name="ContractKillerCult_03">Охорона знайшла труп найманого вбивці</Item>
+        <Item name="ContractKillerSpetsnaz">Охорона знайшла труп спецназівця</Item>
+        <Item name="CultLeader">Охорона знайшла труп лідера культу</Item>
+        <Item name="CultMember_Female_01">Охорона знайшла труп члена культу</Item>
+        <Item name="CultMemberFemale_01">Охорона знайшла труп члена культу</Item>
+        <Item name="CultMemberMale_01">Охорона знайшла труп члена культу</Item>
+        <Item name="CultMemberMale_02">Охорона знайшла труп члена культу</Item>
+        <Item name="default">Охорона знайшла труп</Item>
+        <Item name="DeliveryBoy">Охорона знайшла труп розносника</Item>
+        <Item name="Doctor_01">Охорона знайшла труп лікаря</Item>
+        <Item name="DoctorKraut">Охорона знайшла труп доктора Кампрада</Item>
+        <Item name="DriverLimo">Охорона знайшла труп водія</Item>
+        <Item name="EmbassySecurity_01">Охорона знайшла труп охоронця</Item>
+        <Item name="EmployeesFemalePetronas">Охорона знайшла труп працівника</Item>
+        <Item name="EmployeesPetronas_01">Охорона знайшла труп працівника</Item>
+        <Item name="FireMenPetronas_01">Охорона знайшла труп пожежника</Item>
+        <Item name="GuardsSidjan_01">Охорона знайшла труп охоронця</Item>
+        <Item name="Hayamoto">Охорона знайшла труп Гаямото</Item>
+        <Item name="HayamotoJr">Охорона знайшла труп Гаямото молодшого</Item>
+        <Item name="KGBOfficer_01">Охорона знайшла труп офіцера КДБ</Item>
+        <Item name="KGBOfficer_02">Охорона знайшла труп офіцера КДБ</Item>
+        <Item name="KGBOfficer_03">Охорона знайшла труп офіцера КДБ</Item>
+        <Item name="KGBOfficer_04">Охорона знайшла труп офіцера КДБ</Item>
+        <Item name="MafiaBoss">Охорона знайшла труп боса мафії</Item>
+        <Item name="MafiaBossJapanese">Охорона знайшла труп боса якудзи</Item>
+        <Item name="MafiaBossRussian">Охорона знайшла труп боса мафії</Item>
+        <Item name="MafiaBrother">Охорона знайшла труп брата</Item>
+        <Item name="MafiaLawyer">Охорона знайшла труп адвоката</Item>
+        <Item name="MafiaSon">Охорона знайшла труп сина</Item>
+        <Item name="Maid">Охорона знайшла труп служниці</Item>
+        <Item name="MeiLing">Охорона знайшла труп Мей Лінґ</Item>
+        <Item name="MrSeventeen">Охорона знайшла труп містера 17</Item>
+        <Item name="Nurse_01">Охорона знайшла труп медсестри</Item>
+        <Item name="Patient">Охорона знайшла труп пацієнта</Item>
+        <Item name="Patient_01">Охорона знайшла труп пацієнта</Item>
+        <Item name="PizzaDelivery">Охорона знайшла труп розносника</Item>
+        <Item name="PizzaDelivery_01">Охорона знайшла труп розносника</Item>
+        <Item name="PizzaDelivery_02">Охорона знайшла труп розносника</Item>
+        <Item name="Postman">Охорона знайшла труп листоноші</Item>
+        <Item name="Postman_Nude">Охорона знайшла голого листоношу</Item>
+        <Item name="ProgrammersSidjan_01">Охорона знайшла труп програміста</Item>
+        <Item name="RegularAfghanmales_01">Охорона знайшла труп цивільного</Item>
+        <Item name="RegularFemalePartydress_01">Охорона знайшла труп гості вечірки</Item>
+        <Item name="RegularFemalePartydress_02">Охорона знайшла труп гості вечірки</Item>
+        <Item name="RegularMaleIndian_01">Охорона знайшла труп індійця</Item>
+        <Item name="RegularMaleIndian_02">Охорона знайшла труп індійця</Item>
+        <Item name="RegularMalePartydress_01">Охорона знайшла труп гостя вечірки</Item>
+        <Item name="RussianCivilian_01">Охорона знайшла труп цивільного</Item>
+        <Item name="RussianCivilian_02">Охорона знайшла труп цивільного</Item>
+        <Item name="RussianCivilian_03">Охорона знайшла труп цивільного</Item>
+        <Item name="SecurityGuardsPetronas_01">Охорона знайшла труп охоронця</Item>
+        <Item name="Sheik">Охорона знайшла труп Шейка</Item>
+        <Item name="SoldierNinjaInside_01">Охорона знайшла труп ніндзя</Item>
+        <Item name="SoldierNinjaOutside_01">Охорона знайшла труп ніндзя</Item>
+        <Item name="SoldierNinjaSniperOutside_01">Охорона знайшла труп ніндзя</Item>
+        <Item name="SoldierRussian_01">Охорона знайшла труп солдата</Item>
+        <Item name="SoldierRussianOfficer_01">Охорона знайшла труп офіцера</Item>
+        <Item name="StaffPetronasFemale_01">Охорона знайшла труп працівника</Item>
+        <Item name="StaffPetronasMale_01">Охорона знайшла труп працівника</Item>
+        <Item name="StaffPetronasMale_02">Охорона знайшла труп працівника</Item>
+        <Item name="StaffPetronasMale_03">Охорона знайшла труп працівника</Item>
+        <Item name="SysAdmSidjan">Охорона знайшла труп сисадміна</Item>
+        <Item name="Waiter">Охорона знайшла труп офіціанта</Item>
+      </Item>
+      <Item name="FullAmmo">Не можна брати більше цих набоїв</Item>
+      <Item name="GuardsAlert">Охоронці попереджені</Item>
+      <Item name="GuardSpotBarret">Охоронець знайшов рушницю МІ95</Item>
+      <Item name="Hint">Підказка</Item>
+      <Item name="Information">Інформація</Item>
+      <Item name="NearByGuardsAlarmed">Ближні охоронці стривожені</Item>
+      <Item name="ObjectiveCancelled">Завдання скасоване</Item>
+      <Item name="ObjectiveNotComplete">Завдання не завершене</Item>
+      <Item name="ReceivedItem">Отриманий предмет:</Item>
+      <Item name="RevealLT">Ув'язнений розказав розташування лейтенанта</Item>
+      <Item name="SaveSuccess">Гра збережена успішно</Item>
+      <Item name="SecurityArrive">Охоронці піднімаються в пентхаус на ліфті</Item>
+      <Item name="SecurityWarning">Охоронці будуть попереджені якщо напруга не відновиться</Item>
+      <Item name="Sniper">Снайпер отримав ціль</Item>
+      <Item name="SurveilanceDisabled">Спостереження відключене</Item>
+      <Item name="SuspectBehaviour">
+        <Item name="ArmySheikColonel_01_HMas">Охорона шукає підозрілого полковника</Item>
+        <Item name="ArmySheikLieutenant#0_HMas">Охорона шукає підозрілого лейтенанта</Item>
+        <Item name="ArmySheikLieutenant_01_HMas">Охорона шукає підозрілого лейтенанта</Item>
+        <Item name="ArmySheikSoldier_01_HMas">Охорона шукає підозрілого солдата</Item>
+        <Item name="BodyguardIndia_01_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="BodyguardMafia_01_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="BodyguardMafiaJapanese_01_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="BodyguardMafiaJapanese_02_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="BodyguardMafiaRussian_01_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="BodyguardMafiaRussian_02_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="Chef_HMas">Охорона шукає підозрілого шефа</Item>
+        <Item name="ChefJapanese_HMas">Охорона шукає підозрілого шефа</Item>
+        <Item name="ContractKillerCult_01_HMas">Охорона шукає підозрілого члена культу</Item>
+        <Item name="ContractKillerCult_02_HMas">Охорона шукає підозрілого члена культу</Item>
+        <Item name="ContractKillerCult_03_HMas">Охорона шукає підозрілого члена культу</Item>
+        <Item name="CultMemberMale_01_HMas">Охорона шукає підозрілого члена культу</Item>
+        <Item name="CultMemberMale_02_HMas">Охорона шукає підозрілого члена культу</Item>
+        <Item name="DeliveryBoy_HMas">Охорона шукає підозрілого розносника</Item>
+        <Item name="Doctor_01_HMas">Охорона шукає підозрілого лікаря</Item>
+        <Item name="DriverLimo_HMas">Охорона шукає підозрілого водія</Item>
+        <Item name="EmbassySecurity_01_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="EmployeesPetronas_01_HMas">Охорона шукає підозрілого працівника</Item>
+        <Item name="FireMenPetronas_01_HMas">Охорона шукає підозрілого пожежника</Item>
+        <Item name="GuardsSidjan_01_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="Hero_as_wintercoat">Охорона шукає підозрілу лису особу</Item>
+        <Item name="Hitman2">Охорона шукає підозрілу лису особу</Item>
+        <Item name="MafiaLawyer_HMas">Охорона шукає підозрілого адвоката</Item>
+        <Item name="MrSeventeen_HMas">Охорона шукає підозрілого клона</Item>
+        <Item name="Patient_01_HMas">Охорона шукає підозрілого пацієнта</Item>
+        <Item name="Patient_HMas">Охорона шукає підозрілого пацієнта</Item>
+        <Item name="PizzaDelivery_01_HMas">Охорона шукає підозрілого розносника</Item>
+        <Item name="PizzaDelivery_02_HMas">Охорона шукає підозрілого розносника</Item>
+        <Item name="PizzaDelivery_HMas">Охорона шукає підозрілого розносника</Item>
+        <Item name="Postman_HMas">Охорона шукає підозрілого листоношу</Item>
+        <Item name="ProgrammersSidjan_01_HMas">Охорона шукає підозрілого програміста</Item>
+        <Item name="RegularAfghanmales_01_HMas">Охорона шукає підозрілого цивільного</Item>
+        <Item name="RegularMaleIndian_01_HMas">Охорона шукає підозрілого індійця</Item>
+        <Item name="RegularMaleIndian_02_HMas">Охорона шукає підозрілого індійця</Item>
+        <Item name="RegularMalePartydress_01_HMas">Охорона шукає підозрілого гостя вечірки</Item>
+        <Item name="RussianCivilian_01_HMas">Охорона шукає підозрілого цивільного</Item>
+        <Item name="RussianCivilian_02_HMas">Охорона шукає підозрілого цивільного</Item>
+        <Item name="RussianCivilian_03_HMas">Охорона шукає підозрілого цивільного</Item>
+        <Item name="SecurityGuardsPetronas_01_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="SoldierNinjaInside_01_HMas">Охорона шукає підозрілого ніндзю</Item>
+        <Item name="SoldierNinjaOutside_01_HMas">Охорона шукає підозрілого ніндзю</Item>
+        <Item name="SoldierNinjaSniperOutside_01_HMas">Охорона шукає підозрілого ніндзю</Item>
+        <Item name="SoldierRussian_01_HMas">Охорона шукає підозрілого солдата</Item>
+        <Item name="SoldierRussianOfficer_01_HMas">Охорона шукає підозрілого офіцера</Item>
+        <Item name="StaffPetronasMale_01_HMas">Охорона шукає підозрілого працівника</Item>
+        <Item name="StaffPetronasMale_02_HMas">Охорона шукає підозрілого працівника</Item>
+        <Item name="StaffPetronasMale_03_HMas">Охорона шукає підозрілого працівника</Item>
+        <Item name="SysAdmSidjan_HMas">Охорона шукає підозрілого сисадміна</Item>
+        <Item name="Waiter_HMas">Охорона шукає підозрілого офіціанта</Item>
+      </Item>
+      <Item name="TechnicianAlert">Технік попередив охорону</Item>
+      <Item name="TechnicianArrive">Технік піднімається в пентхаус на ліфті</Item>
+      <Item name="UnconsciousBody">Охорона знайшла несвідому особу</Item>
+      <Item name="Warning">Попередження</Item>
+    </Item>
+    <Item name="Interface">
+      <Item name="3DSound">3D звук</Item>
+      <Item name="AdjustScreen">Підлаштувати екран</Item>
+      <Item name="AdjustScreenMessage">Використовуйте правий джойстик щоб підлаштувати позицію екрану</Item>
+      <Item name="Anisotropic">Анізотропна</Item>
+      <Item name="AntiAliasing">Згладжування</Item>
+      <Item name="Back">Назад</Item>
+      <Item name="Bilinear">Білінійна</Item>
+      <Item name="BlocksNeeded">Потрібно %d блоків</Item>
+      <Item name="Blood">Кров</Item>
+      <Item name="BonusWeapon">За досягнення звання Тихий Вбивця, вас нагороджено бонусною зброєю:</Item>
+      <Item name="Caliber">Калібр</Item>
+      <Item name="Cancel">Скасувати</Item>
+      <Item name="CantSaveNow">Не можна зберегти гру зараз. Знайдіть тихе місце і спробуйте знову.</Item>
+      <Item name="ClipCapacity">Ємність магазину</Item>
+      <Item name="ClipsLeft">Залишилось магазинів</Item>
+      <Item name="Confirmation">Ви впевнені?</Item>
+      <Item name="ConfirmationDashboard">Ваш Хвох не має достатньо вільних блоків для збереженя гри.
+Ви маєте %d вільних блоків на жорсткому диску і потрібно ще %d блоків.
+Виберіть Так щоб продовжити без збереження чи Ні щоб звільнити блоки.</Item>
+      <Item name="ConfirmationDelete">Це видалить збережену гру.
+Ви впевнені?</Item>
+      <Item name="ConfirmationLoad">Це призведе до втрати прогресу гри якщо ви не зберігались недавно. Ви впевнені?</Item>
+      <Item name="ConfirmationOverwrite">Це перепише збережену гру.
+Ви впевнені?</Item>
+      <Item name="Continue">Продовжити гру</Item>
+      <Item name="ControlSetup">Керування</Item>
+      <Item name="Credits">Кредити</Item>
+      <Item name="CreditsText">Нітмаn 2: Sіlеnт Аssаssіn був продукований
+(в алфавітному порядку)
+
+ІО Іnтеrастіvе
+
+Програмісти
+  Єнс Бо Альбретсен
+  Бо Кордес
+  Крістіан Кордес
+  Вкоб Ґорм Генсен
+  Ларс Піестер
+  Гакон Стейн
+  Єрон Веґенаар
+
+Художники
+  Вкоб Андерсен
+  Тобіас Бігль
+  Свен Крістенсен
+  Пітер Флекенстейн
+  Тор Фройліш
+  Генрік Генсен
+  Сорен Б. Єнсен
+  Расмус К'єар
+  Пітер фон Лінстов
+  Єспер Пітерсен
+  Медс Прагм
+  Томес Сторм
+
+Аніматори
+  Барбара Бернєд
+  Єнс Пітер Куруп
+  Фредерік Будолф
+  Мартін Поульсен
+
+Звук
+  Сімон Гольм
+
+Контроль якості
+  Мікель Андерсен
+  Петронела Шімпоесу
+  Г'ю Ґрімлі
+  Крістіан Райс
+  Вкоб Ройд
+  Андреас Слот Вільман
+  Крістіан Тейло
+
+Сценарій
+  Мортен Іверсен
+
+Програмісти двигуна
+  Єнс Бо Альбретсен
+  Руне Брінкмеєр
+  Дейвід Ґульдбрандсен
+  Карстен Гвідберґ
+  Томес Вкобсен
+  Пітер Врає Маріно
+  Мортен Мікельсен
+  Мартін Полас
+  Йон Рокатіс
+  Генінґ Семлер
+  Єнс Скінеруп
+  Торстен К'єар Сьоренсен
+  Стефен Токсвіґ
+
+Керівництво
+  Мортен Борум
+  Внос Флюсер
+  Геле Марійнісен
+
+Додатково
+  Мортен Брамсен
+  Єспер В. Йорґенсен
+  Деніс Гансен
+  Карстен Лунд
+  Алан Гансен
+  Расмус Гйоєнґорд
+  
+Підтримка
+  Ельсе Андерсен
+  Фредерік Екс
+  Сесилія Берґ Гейсінґ
+  Ульф Мааґаард
+  Таня Рау
+  Кліє Стюварт
+
+Вебсайт
+  Чандра Ларсон
+  е-тyреs
+
+Музика
+  Композитор: Єспер Кюд
+  Аранжування: Пьєр Фюлдес
+  Виконавці:
+  Симфонічний оркестр та хор
+  Будапештського радіо
+  Диригент: Бела Драгос
+  Звукоінженер: Денес Редлі
+  Зведення: Йорн Вкобсен
+
+Озвучення
+  Масімо Аґостінелі
+  Аніла Акбар
+  Усман Акбар
+  Девід Бейтсон
+  Дейвід Берно
+  Сюсан Бакгард
+  Дмітрій Ґалаванов
+  Аіша Єнсен
+  Маасакі Каміо
+  Ісмаіл Халід
+  Радін Касбані
+  Челестіно Ланчіа
+  Вів'єн Маккі
+  Акіра Оіші
+  Джеремі С. Пітріман
+  Арсєній Ровінскій
+  Гусейн Салег
+  Алєксандр Савін
+  Багіша Сінг Дгамі
+  Кліа Стюарт
+  Катія Сьйоренсен
+  Карстен Тоде
+  Мануела Верначіні
+  Ітан Вейсґард
+  Мідоріко Вейсґард
+
+Захоплення руху
+  Клаус Г'юлер
+  Тіна Робінсон Гансен
+  Бо Томас
+
+
+Еіdоs Іnтеrастіvе
+
+Продюсер
+  Ніл Донел
+  
+Виконавчий продюсер
+  Ґарі Мур
+
+Локалізація
+  Пол Моушн
+  Алекс Буш
+
+Керівник групи локалізації
+  Флавіа Тімані
+
+Керівник контролю якості
+  Кріс Роулі
+
+Наглядач контролю якості
+  Джон Рі
+
+Помічник керівника контролю якості
+  Ґулам Хан
+
+Координатори тестування
+  Ентоні Пітеркен
+  Дерієл Біббі
+  Джон Рі
+
+Тестувальники
+  Адам Лей
+  Адам Філіпс
+  Ендрю Стенден
+  Ґебріел Ален
+  Джейн Вітфілд
+  Джонатон Редінгтон
+  Марк Крауч
+  Маркус Полторп
+  Морлон Ґрант
+  Мартін Спенсер
+  Майкл Генлі
+  Ноел Коуен
+  Філ Келі
+  Річард Ачеркі
+  Стів Едіс
+  Тайрон Оніл
+  Віктор Тан
+
+Наглядач контролю якості локалізації
+  Марко Вернеті
+
+Ведучий тестувальник локалізації
+  Майкі Кюглер
+
+Координатор тестування
+  Арнауд Месаґер
+
+Тестувальники локолізації
+  Бюнґ-Юн Семуель Кіль
+  Мікаель Песк'є
+  Матьє Шоле
+  Мона Шпільман
+  Хоакін де Прадо Ґарсіа
+  Даніель Кастро
+  Антоніо Фаіла
+  Даріо Счімоне
+  Стефано Чіті
+
+Координатор обслуговування
+  Джейсон Вокер
+
+Інженери сумісності
+  Рей Мален
+  Скот Сатерленд
+  Ґордон Ґрем
+
+
+Еіdоs Іnтеrастіvе US
+
+Продюсер
+  Клейтон Палма
+
+Керівник контролю якості
+  Браян Кінґ
+
+Помічники керівника контролю якості
+  Колбі Маккракен
+  Раян Наталі
+
+Ведучий тестувальник
+  Раян Наталі
+
+Помічник ведучого тестувальника
+  Бо Теора
+
+Тестувальники
+  Алекс Страєр
+  Енді Талі
+  Браян Фолс
+  Ден Френклін
+  Ерік Кенеді
+  Еруф Адамс
+  Генрі Перез
+  Джеймс Кебот
+  Джефрі Лоу
+  Джесі Ендрюс
+  Марк Ґлошен
+  Невін Чю
+  Нік Вілсон
+  Ральф Ортіз
+  Стевен Каворето
+
+Цифрові зображення
+  Аrтвеатs Dіgітаl Fіlм Lівrаry
+
+ПЗ третіх сторін
+  Ехрат
+  Frеетyре
+  Оgg Vоrвіs
+  Zlів
+
+Дякуємо
+  Рінат С. Румянцев
+  Владімір Ґаврілов
+  Патрік Коуен</Item>
+      <Item name="CurrentGame">Поточна гра</Item>
+      <Item name="DeleteFailed">Не можу видалити збереження</Item>
+      <Item name="DeleteSaveGames">Видалити збереження</Item>
+      <Item name="Disabled">Відключено</Item>
+      <Item name="DiskError">Проблема з вашим диском. Можливо, він брудний чи пошкоджений.</Item>
+      <Item name="DiskFull">Диск заповнений. Видаліть кілька збережень щоб мати вільне місце.</Item>
+      <Item name="DrawDistance">Видима відстань</Item>
+      <Item name="DXT">DХТ компресія</Item>
+      <Item name="Easy">Нормал</Item>
+      <Item name="EAX">ЕАХ</Item>
+      <Item name="EMBM">Карти нерівностей</Item>
+      <Item name="Enabled">Включено</Item>
+      <Item name="Extras">Додаткові фільми</Item>
+      <Item name="FactorySettings">Скинути</Item>
+      <Item name="Far">Далеко</Item>
+      <Item name="FreeBlocks">Вільних блоків: %s</Item>
+      <Item name="Gamma">Гамма корекція</Item>
+      <Item name="GraphicsOptions">Графіка</Item>
+      <Item name="Hard">Професіонал</Item>
+      <Item name="High">Високо</Item>
+      <Item name="HM2Video">Нітмаn 2: Sіlеnт Аssаssіn</Item>
+      <Item name="InvertMouse">Інвертування Y-вісі миші</Item>
+      <Item name="Items">Предмети</Item>
+      <Item name="KeyboardSetup">Конфігурування клавіш</Item>
+      <Item name="Length">Довжина</Item>
+      <Item name="LevelOfDetail">Детальність</Item>
+      <Item name="Load">Завантажити</Item>
+      <Item name="LoadFailed">Не можу завантажити збереження</Item>
+      <Item name="Low">Низько</Item>
+      <Item name="Map">
+        <Item name="Exit">Вихід</Item>
+        <Item name="Legend">Легенда</Item>
+        <Item name="Map">Карта</Item>
+        <Item name="Pan">Рух</Item>
+        <Item name="Zoom">Зум</Item>
+      </Item>
+      <Item name="Medium">Експерт</Item>
+      <Item name="MediumOptions">Середньо</Item>
+      <Item name="MemoryCard">
+        <Item name="0">Недостатньо місця на картці пам'яті (8МВ) (для РlаySтатіоn®2). Вставте картку пам'яті (8МВ) (для РlаySтатіоn®2) з принаймні (х)КВ вільного місця, чи очистіть місце за допомогою внутрішнього переглядача консолі.</Item>
+        <Item name="1">Обережно! Вкщо ви хочете зберегти дані гри, вставте картку пам'яті (8МВ) (для РlаySтатіоn®2) з принаймні (х)КВ вільного місця чи натисніть (іnsеrт аррrорrіате вuттоn) щоб продовжити без збереження.</Item>
+        <Item name="10">Зберегти не вдалося! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="11">Зберегти не вдалося. Помилка картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1!</Item>
+        <Item name="12">Збереження даних на картку пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="13">Файл вже існує. Створити новий чи перезаписати дані?</Item>
+        <Item name="14">Зберегти вдалося</Item>
+        <Item name="15">Скасувати збереження? Так чи Ні</Item>
+        <Item name="16">Збереження Нітмаn 2 відсутні на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1.</Item>
+        <Item name="17">Завантажити не вдалося! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1 і спробуйте ще.</Item>
+        <Item name="18">Завантажити не вдалося! Помилка картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n)!</Item>
+        <Item name="19">Завантажити вдалося</Item>
+        <Item name="2">Обережно! (ххх) використовує Автозбереження. Дані на картці пам'яті (8МВ) (для РlаySтатіоn®2) вставленій після цієї миті можуть бути перезаписані.</Item>
+        <Item name="20">Скасувати завантаження? Так чи Ні</Item>
+        <Item name="21">Перевірка картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="22">Помилка картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n)! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="23">Помилка картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n)! Можливо, дані пошкоджені.</Item>
+        <Item name="24">Ви впевнені, що хочете форматувати картку пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n)?</Item>
+        <Item name="25">Форматування картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="26">Скасувати форматування?</Item>
+        <Item name="27">Фоматування вдалося</Item>
+        <Item name="28">Форматування не далося! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="29">Виберіть збереження для видалення.</Item>
+        <Item name="3">Виберіть слот картки пам'яті.</Item>
+        <Item name="30">Видалити збереження?</Item>
+        <Item name="31">Скасувати видалення?</Item>
+        <Item name="32">Видалення даних. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="33">Видалення вдалося</Item>
+        <Item name="34">Виберіть збереження для перезапису.</Item>
+        <Item name="35">Перезаписати збереження?</Item>
+        <Item name="36">Перезаписування даних. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="37">Перезаписування вдалося</Item>
+        <Item name="38">(8МВ) (для РlаySтатіоn®2)</Item>
+        <Item name="4">Картка пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n) не форматована. Форматувати картку пам'яті (8МВ) (для РlаySтатіоn®2)?</Item>
+        <Item name="5">Недостатньо місця на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Нітмаn 2 потребує %dКВ вільного місця для запису даних.</Item>
+        <Item name="6">Недостатньо місця на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n). (ххх) потребує (х)КВ вільного місця для запису даних. Бажаєте перезаписати попередні (ххх) дані?</Item>
+        <Item name="7">Не вставлено картку пам'яті (8МВ) (для РlаySтатіоn®2) у слот 1.</Item>
+        <Item name="8">Автозбереження даних на картку пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n). Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="9">Дані на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n) змінилися. Перезаписати попередні (ххх) дані Так чи Ні?</Item>
+        <Item name="BootNoMCHeader">Не знайдена картка пам'яті (8МВ) (для РlаySтатіоn®2)</Item>
+        <Item name="BootNoMCMessage">Картка пам'яті (8МВ) (для РlаySтатіоn®2) не вставлена. Принаймні %d КВ потрібно щоб зберегти дані гри.
+Вставте картку пам'яті (8МВ) (для РlаySтатіоn®2) у слот 1.</Item>
+        <Item name="BootNoSpaceHeader">Не достатньо місця</Item>
+        <Item name="BootNoSpaceMessage">Не достатньо місця на картці пам'яті (8МВ) (для РlаySтатіоn®2). Принаймні %d КВ потрібно щоб зберегти дані гри.</Item>
+        <Item name="CancelSaveConfirmation">Скасувати збереження?</Item>
+        <Item name="CannotCreateNew">Не достатньо місця на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1 щоб створити нове збереження. Вам доведеться перезаписати існуюче збереження.</Item>
+        <Item name="Continue">Продовжити</Item>
+        <Item name="CorruptedSaveGame">Пошкоджене збереження</Item>
+        <Item name="CreateConfirmation">Створити нове збереження?</Item>
+        <Item name="DeleteFailed">Видалення не вдалося! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="Format">Форматування</Item>
+        <Item name="FormatConfirmation">Форматувати?</Item>
+        <Item name="InsertMC">Вставте картку пам'яті (8МВ) (для РlаySтатіоn®2) у слот 1.</Item>
+        <Item name="InternalError">Внутрішня помилка. Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="LoadConfirmation">Завантажити збереження?</Item>
+        <Item name="Loading">Завантаження даних з картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="OverwriteFailed">Перезапис не вдався! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="Overwriting">Перезапис даних на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="Retry">Повторити</Item>
+        <Item name="SaveProgress">Зберегти гру?</Item>
+        <Item name="UnformattedMC">Картка пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1 не форматована.</Item>
+      </Item>
+      <Item name="MissingController">Перепідключіть контролер і натисніть кнопку SТАRТ щоб продовжити</Item>
+      <Item name="MissingController_Xbox">Перепідключіть контролер і натисніть кнопку SТАRТ щоб продовжити</Item>
+      <Item name="ModeSelect">Налаштування ТВ</Item>
+      <Item name="ModeSelectConfirmation">Вкщо ви бачите кольорову смугу внизу цієї сторінки 
+ваш ТВ підтримує режим 60 Гц.</Item>
+      <Item name="MoreOptions">Інше</Item>
+      <Item name="MouseSpeed">Швидкість миші</Item>
+      <Item name="MusicVolume">Музика</Item>
+      <Item name="Near">Близько</Item>
+      <Item name="New">Створити</Item>
+      <Item name="NewGame">Нова гра</Item>
+      <Item name="No">Ні</Item>
+      <Item name="NoMoreSaves">У вас немає більше збережень</Item>
+      <Item name="Normal">Середньо</Item>
+      <Item name="NoSaveFiles">Збереження відсутні</Item>
+      <Item name="NTSC">60 Гц</Item>
+      <Item name="NumberVoices">Кількість голосів</Item>
+      <Item name="Options">Опції</Item>
+      <Item name="PAL">50 Гц</Item>
+      <Item name="PatchSubDiv">N-патчі</Item>
+      <Item name="PleaseWait">Зачекайте...</Item>
+      <Item name="PressButton">Натисніть нову кнопку</Item>
+      <Item name="Quit">Вийти</Item>
+      <Item name="RestartMission">Почати місію знову</Item>
+      <Item name="RestoreDefaults">Скинути</Item>
+      <Item name="ReturnToMain">Повернутися в головне меню</Item>
+      <Item name="Save">Зберегти</Item>
+      <Item name="SaveFailed">Не вдалося зберегти гру</Item>
+      <Item name="SaveGameMaxReached">Досягнуто максимальної кількості збережень, 
+видаліть чи перезапишіть збереження</Item>
+      <Item name="SavesLeft">Залишилось збереженнь: %d</Item>
+      <Item name="Saving">Зачекайте поки гра збережеться.</Item>
+      <Item name="Saving_Xbox">Збереження гри.
+Не вимикайте вашу Хвох консоль</Item>
+      <Item name="ScreenDepth">Глибина кольору</Item>
+      <Item name="ScreenResolution">Резолюція</Item>
+      <Item name="SelectDifficulty">Виберіть складність</Item>
+      <Item name="SfxVolume">Ефекти</Item>
+      <Item name="Shadows">Тіні</Item>
+      <Item name="ShotsLeft">Знімків залишилось</Item>
+      <Item name="SoundOptions">Звук</Item>
+      <Item name="SpeechVolume">Розмови</Item>
+      <Item name="Start">Почати</Item>
+      <Item name="Subtitles">Субтитри</Item>
+      <Item name="TestNTSC">Тест</Item>
+      <Item name="TextureDepth">Глибина кольору текстур</Item>
+      <Item name="TextureFilter">Фільтр текстур</Item>
+      <Item name="TextureResolution">Резолюція текстур</Item>
+      <Item name="TRAODVideo">Томв Rаіdеr: Аngеl Оf Dаrкnеss</Item>
+      <Item name="Trilinear">Трилінійна</Item>
+      <Item name="TS2Video">Тімеsрlіттеrs 2</Item>
+      <Item name="TurnSensitivity">Чутливість</Item>
+      <Item name="VeryLow">Дуже низько</Item>
+      <Item name="VeryNear">Дуже близько</Item>
+      <Item name="VibrationMode">Вібрація</Item>
+      <Item name="Weapons">Зброя</Item>
+      <Item name="WeatherEffects">Погодні ефекти</Item>
+      <Item name="Weight">Вага</Item>
+      <Item name="Yes">Так</Item>
+    </Item>
+    <Item name="Items">
+      <Item name="Details">
+        <Item name="BombRemote">
+          <Item name="FreeText">
+            <Item name="1">Не стійте надто близько до цього обладнання.</Item>
+            <Item name="2">Озбройте бомбу тримаючи її і натиснувши 'вогонь'.</Item>
+            <Item name="3">Щоб задіяти бомбу потрібен дистанційний пульт.</Item>
+          </Item>
+          <Item name="Type">Дистанційна бомба</Item>
+        </Item>
+        <Item name="BombRemoteControl">
+          <Item name="FreeText">
+            <Item name="1">Використовуйте для задіяння дистанційної бомби.</Item>
+            <Item name="2">Не забудьте озброїти бомбу перед використанням пульта.</Item>
+          </Item>
+          <Item name="Type">Пульт для дистанційної бомби</Item>
+        </Item>
+        <Item name="BombRemoteSmall">
+          <Item name="FreeText">
+            <Item name="1">Не стійте надто близько до цього обладнання.</Item>
+            <Item name="2">Озбройте бомбу тримаючи її і натиснувши 'вогонь'.</Item>
+            <Item name="3">Щоб задіяти бомбу потрібен дистанційний пульт.</Item>
+          </Item>
+          <Item name="Type">Дистанційна бомба</Item>
+        </Item>
+        <Item name="Cigar">
+          <Item name="FreeText">
+            <Item name="1">Часто використовується російськими агентами КГБ</Item>
+            <Item name="2">Не користуйся цим!</Item>
+            <Item name="3">Це тобі зашкодить.</Item>
+          </Item>
+          <Item name="Type">М'яка і смачна</Item>
+        </Item>
+        <Item name="CloseCombatAxe">
+          <Item name="FreeText">
+            <Item name="1">Для розбивання дверей та інших перепон.</Item>
+          </Item>
+          <Item name="Type">Пожежна сокира</Item>
+        </Item>
+        <Item name="CloseCombatChloroform">
+          <Item name="FreeText">
+            <Item name="1">Використовується для ощадного умиротворення ворогів.</Item>
+          </Item>
+          <Item name="Type">Хлороформ</Item>
+        </Item>
+        <Item name="CloseCombatFiberWire">
+          <Item name="FreeText">
+            <Item name="1">Волокно. Не задіює металодетектори.</Item>
+          </Item>
+          <Item name="Type">Шнур для удушення</Item>
+        </Item>
+        <Item name="CloseCombatGolfClub">
+          <Item name="FreeText">
+            <Item name="1">Титановий спортивний інструмент. Рухається інерцією.</Item>
+          </Item>
+          <Item name="Type">Гольфова ключка</Item>
+        </Item>
+        <Item name="CloseCombatKitchenKnife">
+          <Item name="FreeText">
+            <Item name="1">Стандартний кухонний багатоцільовий ріжучий інструмент.</Item>
+          </Item>
+          <Item name="Type">Кухонний ніж</Item>
+        </Item>
+        <Item name="CloseCombatKnifePentagon">
+          <Item name="FreeText">
+            <Item name="1">Стандартний військовий двосічний легкий бойовий ніж.</Item>
+          </Item>
+          <Item name="Type">Спеціальний армійський ніж</Item>
+        </Item>
+        <Item name="CloseCombatRosary">
+          <Item name="FreeText">
+            <Item name="1">Низка віруючого католика.</Item>
+          </Item>
+          <Item name="Type">Низка чоток</Item>
+        </Item>
+        <Item name="CloseCombatScalpel">
+          <Item name="FreeText">
+            <Item name="1">Класика операційної зали.</Item>
+          </Item>
+          <Item name="Type">Хірургічний скальпель</Item>
+        </Item>
+        <Item name="CloseCombatSword">
+          <Item name="FreeText">
+            <Item name="1">Гарно оздоблений старовинний інструмент війни.</Item>
+          </Item>
+          <Item name="Type">Впонська катана</Item>
+        </Item>
+        <Item name="CloseCombatSyringePoison">
+          <Item name="FreeText">
+            <Item name="1">Не використовуй це вдома.</Item>
+          </Item>
+          <Item name="Type">Шприц з отрутою</Item>
+        </Item>
+        <Item name="GunBeretta92">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">21,7 см</Item>
+          <Item name="Type">Напівавтоматична ручна зброя</Item>
+          <Item name="Weight">0,95 кг</Item>
+        </Item>
+        <Item name="GunBeretta92Silenced">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">41,7 см</Item>
+          <Item name="Type">Напівавтоматична ручна зброя зі з'ємним глушником</Item>
+          <Item name="Weight">1,26 кг</Item>
+        </Item>
+        <Item name="GunColtPython">
+          <Item name="Caliber">Маg.</Item>
+          <Item name="Length">20 см</Item>
+          <Item name="Type">Короткоствольний револьвер .357</Item>
+          <Item name="Weight">1,06 кг</Item>
+        </Item>
+        <Item name="GunDesertEagle">
+          <Item name="Caliber">Маg.</Item>
+          <Item name="Length">15,9 см</Item>
+          <Item name="Type">Напівавтоматична ручна зброя</Item>
+          <Item name="Weight">1,897 кг</Item>
+        </Item>
+        <Item name="GunHardballer">
+          <Item name="Caliber">.45 АСР</Item>
+          <Item name="Length">21,6 см</Item>
+          <Item name="Type">Напівавтоматична ручна зброя</Item>
+          <Item name="Weight">1,076 кг</Item>
+        </Item>
+        <Item name="GunHardballer_PICKUP">
+          <Item name="Caliber">.45 АСР</Item>
+          <Item name="Length">21,6 см</Item>
+          <Item name="Type">Напівавтоматична ручна зброя</Item>
+          <Item name="Weight">1,076 кг</Item>
+        </Item>
+        <Item name="GunHardballerSilenced">
+          <Item name="Caliber">.45 АСР</Item>
+          <Item name="Length">41,6 см</Item>
+          <Item name="Type">Напівавтоматична ручна зброя з глушником</Item>
+          <Item name="Weight">1,257 кг</Item>
+        </Item>
+        <Item name="GunHardballerSilenced_PICKUP">
+          <Item name="Caliber">.45 АСР</Item>
+          <Item name="Length">41,6 см</Item>
+          <Item name="Type">Напівавтоматична ручна зброя з глушником</Item>
+          <Item name="Weight">1,257 кг</Item>
+        </Item>
+        <Item name="GunPSM">
+          <Item name="Caliber">5,45мм</Item>
+          <Item name="Length">16 см</Item>
+          <Item name="Type">Пістолет російських служб</Item>
+          <Item name="Weight">0,46 кг</Item>
+        </Item>
+        <Item name="GunRuger22Silenced">
+          <Item name="Caliber">.22</Item>
+          <Item name="Length">42,2 см</Item>
+          <Item name="Type">Пістолет з інтегрованим глушником</Item>
+          <Item name="Weight">1,12 кг</Item>
+        </Item>
+        <Item name="GunSawnOffShotgun">
+          <Item name="Caliber">12 калібр</Item>
+          <Item name="Length">65,4 см</Item>
+          <Item name="Type">Двоствольна рушниця 12 калібру</Item>
+          <Item name="Weight">2,8 кг</Item>
+        </Item>
+        <Item name="KeyWarheads">
+          <Item name="FreeText" />
+          <Item name="Type">Ключ активації ядерних боєголовок</Item>
+        </Item>
+        <Item name="RifleAKSU">
+          <Item name="Caliber">5,45 мм</Item>
+          <Item name="Length">67,5 см</Item>
+          <Item name="Type">Похідний російського АК-47</Item>
+          <Item name="Weight">3,1 кг</Item>
+        </Item>
+        <Item name="RifleFranchiSpas12">
+          <Item name="Caliber">12 калібр</Item>
+          <Item name="Length">93 см</Item>
+          <Item name="Type">Автоматична бойова рушниця</Item>
+          <Item name="Weight">4,2 кг</Item>
+        </Item>
+        <Item name="RifleM4A1">
+          <Item name="Caliber">5,56 мм</Item>
+          <Item name="Length">84 см</Item>
+          <Item name="Type">Штурмова гвинтівка</Item>
+          <Item name="Weight">2,54 кг</Item>
+        </Item>
+        <Item name="RifleM60">
+          <Item name="Caliber">7,62 мм</Item>
+          <Item name="Length">110 см</Item>
+          <Item name="Type">Легкий кулемет</Item>
+          <Item name="Weight">10,5 кг</Item>
+        </Item>
+        <Item name="RifleShotgun">
+          <Item name="Caliber">12 калібр</Item>
+          <Item name="Length">115,7 см</Item>
+          <Item name="Type">Двоствольна рушниця 12 калібру</Item>
+          <Item name="Weight">3,2 кг</Item>
+        </Item>
+        <Item name="RifleSniperBarrettM95">
+          <Item name="Caliber">.50</Item>
+          <Item name="Length">114,3 см</Item>
+          <Item name="Type">Протитранспортна гвинтівка калібру .50</Item>
+          <Item name="Weight">10 кг</Item>
+        </Item>
+        <Item name="RifleSniperCrossbow">
+          <Item name="Caliber">Стріли</Item>
+          <Item name="Length">124,8 см</Item>
+          <Item name="Type">Складний мисливський арбалет</Item>
+          <Item name="Weight">2,9 кг</Item>
+        </Item>
+        <Item name="RifleSniperDragunov">
+          <Item name="Caliber">7,62 мм</Item>
+          <Item name="Length">125,5 см</Item>
+          <Item name="Type">Гвинтівка російських снайперів</Item>
+          <Item name="Weight">4,31 кг</Item>
+        </Item>
+        <Item name="RifleSniperDragunovFakeAmmo">
+          <Item name="Caliber">7,62 мм</Item>
+          <Item name="Length">125,5 см</Item>
+          <Item name="Type">Гвинтівка російських снайперів</Item>
+          <Item name="Weight">4,31 кг</Item>
+        </Item>
+        <Item name="RifleSniperR93">
+          <Item name="Caliber">.308 Wіnснеsтеr</Item>
+          <Item name="Length">119 см</Item>
+          <Item name="Type">Снайперська гвинтівка</Item>
+          <Item name="Weight">4,8 кг</Item>
+        </Item>
+        <Item name="RifleSniperWaltherCustom">
+          <Item name="Caliber">.300 WіnМаg</Item>
+          <Item name="Length">90,9 см</Item>
+          <Item name="Type">Замовна снайперська гвинтівка W2000. Рідкісна.</Item>
+          <Item name="Weight">8,6 кг</Item>
+        </Item>
+        <Item name="RifleSniperWaltherWA2000">
+          <Item name="Caliber">.300 WіnМаg</Item>
+          <Item name="Length">90,5 см</Item>
+          <Item name="Type">Колекційна снайперська гвинтівка</Item>
+          <Item name="Weight">8,31 кг</Item>
+        </Item>
+        <Item name="SmgMP5">
+          <Item name="Caliber">9 мм Раrавеlluм</Item>
+          <Item name="Length">68 см</Item>
+          <Item name="Type">Пістолет-кулемет</Item>
+          <Item name="Weight">2,55 кг</Item>
+        </Item>
+        <Item name="SmgMP5SD6">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">75,5 см</Item>
+          <Item name="Type">Заглушений пістолет-кулемет</Item>
+          <Item name="Weight">3,05 кг</Item>
+        </Item>
+        <Item name="SmgUzi">
+          <Item name="Caliber">9 мм Раrавеlluм</Item>
+          <Item name="Length">47 см</Item>
+          <Item name="Type">Грубий пістолет-кулемет</Item>
+          <Item name="Weight">3,7 кг</Item>
+        </Item>
+      </Item>
+      <Item name="LongNames">
+        <Item name="Ammo12gauge">Набої 12 калібру</Item>
+        <Item name="Ammo45ACP">Набої .45 АСР</Item>
+        <Item name="Ammo556">Набої 5,56 мм</Item>
+        <Item name="Ammo762">Набої 7,62 мм</Item>
+        <Item name="AmmoBolt">Стріли</Item>
+        <Item name="AmmoCal22">Набої .22</Item>
+        <Item name="AmmoCal50">Набої .50</Item>
+        <Item name="AmmoChloroform">Дози хлороформу</Item>
+        <Item name="AmmoMagnum">Набої Маg.</Item>
+        <Item name="AmmoPistol">Набої Ріsтоl</Item>
+        <Item name="AmmoSmg">Набої SМG</Item>
+        <Item name="AmmoSniper">Набої Snіреr</Item>
+        <Item name="AmmoSniperFake">Набої Snіреr</Item>
+        <Item name="BadgeHospital">Лікарняний ідентифікаційний бейдж</Item>
+        <Item name="Binoculars">Бінокль</Item>
+        <Item name="BombCar">Автомобільна бомба</Item>
+        <Item name="BombRemote">Дистанційна бомба</Item>
+        <Item name="BombRemoteControl">Дистанційний пульт</Item>
+        <Item name="BombRemoteSmall">Дистанційна мінібомба</Item>
+        <Item name="BottleVodka">Горілка</Item>
+        <Item name="BowlSushi">Тарілка суші</Item>
+        <Item name="CameraPolaroid">Фотокамера</Item>
+        <Item name="Cheque">Чек</Item>
+        <Item name="ChocolateBox">Коробка шоколаду</Item>
+        <Item name="Cigar">Сигара</Item>
+        <Item name="CloseCombatAxe">Пожежна сокира</Item>
+        <Item name="CloseCombatChloroform">Анестетик</Item>
+        <Item name="CloseCombatFiberWire">Волокно</Item>
+        <Item name="CloseCombatGolfClub">Гольфова ключка</Item>
+        <Item name="CloseCombatKitchenKnife">Кухонний ніж</Item>
+        <Item name="CloseCombatKnifePentagon">Бойовий ніж</Item>
+        <Item name="CloseCombatRosary">Низка чоток</Item>
+        <Item name="CloseCombatScalpel">Хірургічний скальпель</Item>
+        <Item name="CloseCombatSword">Катана</Item>
+        <Item name="CloseCombatSyringePoison">Шприц з отрутою</Item>
+        <Item name="CrateGrocery">Продукти</Item>
+        <Item name="DeliveryPackageLarge">Посилка</Item>
+        <Item name="DeliveryPackageMedium">Посилка</Item>
+        <Item name="DeliveryPackageSmall">Посилка</Item>
+        <Item name="DollarBills">Пачка грошей</Item>
+        <Item name="DrinkingGlassChampagne">Келих шампанського</Item>
+        <Item name="DrinkingGlassCocktail">Коктейль</Item>
+        <Item name="DrinkingGlassWater">Склянка води</Item>
+        <Item name="DustBroom">Мітла</Item>
+        <Item name="EquipBinoculars">Польовий бінокль</Item>
+        <Item name="FishFuguPoisonPiece">Отруйна частина Фугу</Item>
+        <Item name="Flashlight">Ліхтарик</Item>
+        <Item name="GpsTransmitterMicro">GРS мікропередавач</Item>
+        <Item name="GuidanceSystem">Система наведення</Item>
+        <Item name="GunBeretta92">9 мм Ріsтоl</Item>
+        <Item name="GunBeretta92Silenced">9 мм Ріsтоl заглушений</Item>
+        <Item name="GunColtPython">Rеvоlvеr</Item>
+        <Item name="GunDesertEagle">Dеsеrт Еаglе .50</Item>
+        <Item name="GunHardballer">Sіlvеrваllеr .45</Item>
+        <Item name="GunHardballer_PICKUP">Sіlvеrваllеr .45</Item>
+        <Item name="GunHardballerSilenced">Sіlvеrваllеr .45 заглушений</Item>
+        <Item name="GunHardballerSilenced_PICKUP">Sіlvеrваllеr .45 заглушений</Item>
+        <Item name="GunPSM">5,45 мм Ріsтоl</Item>
+        <Item name="GunRuger22Silenced">.22 заглушений</Item>
+        <Item name="GunSawnOffShotgun">Обрізана рушниця</Item>
+        <Item name="HackingDevice">Хакерський пристрій</Item>
+        <Item name="KeyCard">Ключ-картка</Item>
+        <Item name="KeyCardSpecial">Спеціальна ключ-картка</Item>
+        <Item name="KeyCarFerrari">Ключ до автомобіля</Item>
+        <Item name="KeyDoor">Ключ до дверей</Item>
+        <Item name="KeyLocker">Ключ до шафи</Item>
+        <Item name="KeyRoom">Ключ до кімнати</Item>
+        <Item name="KeyWarheads">Ключ до боєголовок</Item>
+        <Item name="Lighter">Запальничка</Item>
+        <Item name="LockPick">Відмички</Item>
+        <Item name="MapHospital">Мапа лікарні</Item>
+        <Item name="MapNukeLocation">Розташування боєголовок</Item>
+        <Item name="NightvisionGoggles">Темновізор</Item>
+        <Item name="NoteAdmission">Пропуск</Item>
+        <Item name="Pager">Пейджер</Item>
+        <Item name="PartyInvitation">Запрошення на вечірку</Item>
+        <Item name="PhoneMobile">Мобільний телефон</Item>
+        <Item name="PillGlassPoison">Отрута</Item>
+        <Item name="Pizza">Коробка піци</Item>
+        <Item name="RifleAKSU">Штурмова гвинтівка АК</Item>
+        <Item name="RifleFranchiSpas12">Дробовик SР12</Item>
+        <Item name="RifleM4A1">Гвинтівка М4</Item>
+        <Item name="RifleM60">Легкий кулемет М60</Item>
+        <Item name="RifleShotgun">Двоствольна рушниця</Item>
+        <Item name="RifleSniperBarrettM95">Снайперка МІ95</Item>
+        <Item name="RifleSniperCrossbow">Мисливський арбалет</Item>
+        <Item name="RifleSniperDragunov">Снайперка SVD</Item>
+        <Item name="RifleSniperDragunovFakeAmmo">Снайперка SVD</Item>
+        <Item name="RifleSniperR93">Снайперка R93</Item>
+        <Item name="RifleSniperWaltherCustom">Замовна снайперка W2000</Item>
+        <Item name="RifleSniperWaltherWA2000">Снайперка W2000</Item>
+        <Item name="SafeCombination">Комбінація до сейфу</Item>
+        <Item name="Sausages">Сосиска</Item>
+        <Item name="SmgMP5">Пістолет-кулемет</Item>
+        <Item name="SmgMP5SD6">Заглушений пістолет-кулемет</Item>
+        <Item name="SmgUzi">Uzі 9 мм</Item>
+        <Item name="Statue">Статуетка</Item>
+        <Item name="Stone">Камінь</Item>
+        <Item name="Suitcase">Валізка</Item>
+        <Item name="SwitchPower">Перемикач напруги</Item>
+        <Item name="Syringe">Шприц</Item>
+        <Item name="TravelBrochure">Туристична брошура</Item>
+        <Item name="TrayCocktail">Піднос</Item>
+        <Item name="WoodenSpoon_01">Дерев'яна ложка</Item>
+      </Item>
+      <Item name="ShortNames">
+        <Item name="Ammo12gauge">Набої 12 калібру</Item>
+        <Item name="Ammo45ACP">Набої .45 АСР</Item>
+        <Item name="Ammo556">Набої 5,56 мм</Item>
+        <Item name="Ammo762">Набої 7,62 мм</Item>
+        <Item name="AmmoBolts">Стріли</Item>
+        <Item name="AmmoCal22">Набої .22</Item>
+        <Item name="AmmoCal50">Набої .50</Item>
+        <Item name="AmmoChloroform">Хлороформ</Item>
+        <Item name="AmmoKnife" />
+        <Item name="AmmoMagnum">Набої Маg.</Item>
+        <Item name="AmmoMG">Набої кулемета</Item>
+        <Item name="AmmoPistol">Набої пістолета</Item>
+        <Item name="AmmoShotgun">Набої рушниці</Item>
+        <Item name="AmmoSMG">Набої ПК</Item>
+        <Item name="AmmoSniper">Набої снайперки</Item>
+        <Item name="AmmoSniperFake">Набої снайперки</Item>
+        <Item name="Appetizer">Закуска</Item>
+        <Item name="BadgeHospital">Бейдж</Item>
+        <Item name="Binoculars">Бінокль</Item>
+        <Item name="BombCar">Автобомба</Item>
+        <Item name="BombRemote">Бомба</Item>
+        <Item name="BombRemoteControl">Пульт бомби</Item>
+        <Item name="BombRemoteSmall">Мінібомба</Item>
+        <Item name="BottleVodka">Горілка</Item>
+        <Item name="BowlSushi">Тарілка суші</Item>
+        <Item name="CameraPolaroid">Фотокамера</Item>
+        <Item name="Cheque">Чек</Item>
+        <Item name="ChocolateBox">Шоколад</Item>
+        <Item name="Cigar">Сигара</Item>
+        <Item name="CloseCombatAxe">Сокира</Item>
+        <Item name="CloseCombatChloroform">Анестетик</Item>
+        <Item name="CloseCombatFiberWire">Волокно</Item>
+        <Item name="CloseCombatGolfClub">Ключка</Item>
+        <Item name="CloseCombatKitchenKnife">Кухонний ніж</Item>
+        <Item name="CloseCombatKnifePentagon">Бойовий ніж</Item>
+        <Item name="CloseCombatRosary">Низка</Item>
+        <Item name="CloseCombatScalpel">Скальпель</Item>
+        <Item name="CloseCombatSword">Катана</Item>
+        <Item name="CloseCombatSyringePoison">Шприц</Item>
+        <Item name="CrateGrocery">Продукти</Item>
+        <Item name="DeliveryPackageLarge">Посилка</Item>
+        <Item name="DeliveryPackageMedium">Посилка</Item>
+        <Item name="DeliveryPackageSmall">Посилка</Item>
+        <Item name="DollarBills">Гроші</Item>
+        <Item name="DrinkingGlassChampagne">Шампанське</Item>
+        <Item name="DrinkingGlassCocktail">Коктейль</Item>
+        <Item name="DrinkingGlassWater">Вода</Item>
+        <Item name="DustBroom">Мітла</Item>
+        <Item name="EquipBinoculars">Бінокль</Item>
+        <Item name="EquipFlashlight">Ліхтарик</Item>
+        <Item name="EquipLockPick">Відмички</Item>
+        <Item name="EquipNightvisionGoggles">Нічне бачення</Item>
+        <Item name="EquipPager">Пейджер</Item>
+        <Item name="EquipPhoneMobile">Мобілка</Item>
+        <Item name="FishFugu">Риба фугу</Item>
+        <Item name="FishFuguPoisonPiece">Отруєна риба</Item>
+        <Item name="Flashlight">Ліхтарик</Item>
+        <Item name="FlowerBuket_01">Квіти</Item>
+        <Item name="FoodSushi">Суші</Item>
+        <Item name="GpsTransmitterMicro">Передавач</Item>
+        <Item name="GuidanceSystem">Стеження</Item>
+        <Item name="GunBeretta92">9 мм Ріsтоl</Item>
+        <Item name="GunBeretta92Silenced">9 мм Ріsтоl SD</Item>
+        <Item name="GunColtPython">Rеvоlvеr</Item>
+        <Item name="GunDesertEagle">Dеаglе</Item>
+        <Item name="GunHardballer">Ваllеrs</Item>
+        <Item name="GunHardballer_PICKUP">Ваllеrs</Item>
+        <Item name="GunHardballerSilenced">Ваllеrs SD</Item>
+        <Item name="GunHardballerSilenced_PICKUP">Ваllеrs SD</Item>
+        <Item name="GunPSM">.54 Ріsтоl</Item>
+        <Item name="GunRuger22Silenced">.22 SD</Item>
+        <Item name="GunSawnOffShotgun">Обріз</Item>
+        <Item name="HackingDevice">Хакпристрій</Item>
+        <Item name="KeyCard">Ключ-картка</Item>
+        <Item name="KeyCardSpecial">Спецкартка</Item>
+        <Item name="KeyCarFerrari">Ключ до авто</Item>
+        <Item name="KeyChurchSecret">Ключ до церкви</Item>
+        <Item name="KeyDoor">Ключ до дверей</Item>
+        <Item name="KeyHouse">Ключ до будинку</Item>
+        <Item name="KeyLocker">Ключ до шафи</Item>
+        <Item name="KeyRoom">Ключ до кімнати</Item>
+        <Item name="KeyWarheads">Ключ</Item>
+        <Item name="Lighter">Запальничка</Item>
+        <Item name="LockPick">Відмички</Item>
+        <Item name="MainCourse">Головна страва</Item>
+        <Item name="MapHospital">Мапа лікарні</Item>
+        <Item name="MapNukeLocation">Координати</Item>
+        <Item name="NightvisionGoggles">Нічне бачення</Item>
+        <Item name="NoteAdmission">Пропуск</Item>
+        <Item name="Pager">Пейджер</Item>
+        <Item name="PartyInvitation">Запрошення</Item>
+        <Item name="PhoneMobile">Мобілка</Item>
+        <Item name="PillGlassPoison">Отрута</Item>
+        <Item name="Pizza">Піца</Item>
+        <Item name="RateA">Нітмаn</Item>
+        <Item name="RifleAKSU">АК</Item>
+        <Item name="RifleFranchiSpas12">SР12</Item>
+        <Item name="RifleM4A1">М4</Item>
+        <Item name="RifleM60">М60</Item>
+        <Item name="RifleShotgun">Рушниця</Item>
+        <Item name="RifleSniperBarrettM95">МІ95</Item>
+        <Item name="RifleSniperCrossbow">Арбалет</Item>
+        <Item name="RifleSniperDragunov">SVD</Item>
+        <Item name="RifleSniperDragunovFakeAmmo">SVD</Item>
+        <Item name="RifleSniperR93">R93</Item>
+        <Item name="RifleSniperWaltherCustom">W2000 замовна</Item>
+        <Item name="RifleSniperWaltherWA2000">W2000</Item>
+        <Item name="SafeCombination">Комбінація</Item>
+        <Item name="Sausages">Сосиска</Item>
+        <Item name="SmgMP5">ПК</Item>
+        <Item name="SmgMP5SD6">ПКЗ</Item>
+        <Item name="SmgUzi">Uzі</Item>
+        <Item name="SmokeBomb">Димова</Item>
+        <Item name="Statue">Статуетка</Item>
+        <Item name="Stone">Камінь</Item>
+        <Item name="Suitcase">Валізка</Item>
+        <Item name="SwitchPower">Перемикач</Item>
+        <Item name="Syringe">Шприц</Item>
+        <Item name="TravelBrochure">Брошура</Item>
+        <Item name="TrayCocktail">Піднос</Item>
+        <Item name="WoodenSpoon_01">Ложка</Item>
+      </Item>
+    </Item>
+    <Item name="JustInCase">
+      <Item name="ObjectiveStatusChanged">Завдання змінилося.</Item>
+      <Item name="ObjOk1">Перше завдання виконано</Item>
+      <Item name="ObjOk2">Друге завдання виконано</Item>
+      <Item name="ObjOk3">Третє завдання виконано</Item>
+    </Item>
+    <Item name="Laptop">
+      <Item name="AdditionalFiles">Додаткові файли</Item>
+      <Item name="Continue">Продовжити</Item>
+      <Item name="MissionBriefing">Інструкції місії</Item>
+      <Item name="MissionObjectives">Завдання місії</Item>
+      <Item name="Quit">Вийти</Item>
+      <Item name="Repeat">Повторити</Item>
+      <Item name="Savegames">Місії</Item>
+      <Item name="View">Огляд</Item>
+    </Item>
+    <Item name="Statistics">
+      <Item name="Aggression">Агресія:</Item>
+      <Item name="Alerts">Тривоги:</Item>
+      <Item name="Back">Назад</Item>
+      <Item name="CloseEncounters">Близькі контакти:</Item>
+      <Item name="Continue">Продовжити</Item>
+      <Item name="Difficulty">Складність:</Item>
+      <Item name="EnemiesHarmed">Ворогів поранено:</Item>
+      <Item name="EnemiesKilled">Ворогів убито:</Item>
+      <Item name="HeadShots">Пострілів у голову:</Item>
+      <Item name="InnocentsHarmed">Невинних поранено:</Item>
+      <Item name="InnocentsKilled">Невинних убито:</Item>
+      <Item name="MissionAccomplished">Місія завершена</Item>
+      <Item name="MissionFailed">Місія провалена</Item>
+      <Item name="Overall">Загально</Item>
+      <Item name="Ranking">
+        <Item name="Amateur">Аматор</Item>
+        <Item name="Apprentice">Підмайстер</Item>
+        <Item name="Butcher">М'ясник</Item>
+        <Item name="ButtonMan">Кнопкодав</Item>
+        <Item name="Cleaner">Чистильник</Item>
+        <Item name="Executioner">Виконавець</Item>
+        <Item name="Expert">Експерт</Item>
+        <Item name="FFuchs">Ф. Фукс</Item>
+        <Item name="Fool">Дурень</Item>
+        <Item name="Ghost">Привид</Item>
+        <Item name="Goon">Бик</Item>
+        <Item name="HatchetMan">Рубака</Item>
+        <Item name="HenchMan">Поплічник</Item>
+        <Item name="HiredGun">Найманець</Item>
+        <Item name="Iceman">Льодівник</Item>
+        <Item name="KimBo">Кім Бо Кастекнів</Item>
+        <Item name="LaederBoessen">Лаедер Боссе</Item>
+        <Item name="LLKlauwn">Л. Л. Клоун</Item>
+        <Item name="MassMurderer">Масовий вбивця</Item>
+        <Item name="Moron">Баран</Item>
+        <Item name="Natural">Натурал</Item>
+        <Item name="NinjaExtraordinaire">Ніндзя незвичайний</Item>
+        <Item name="Postal">Листоноша</Item>
+        <Item name="Professional">Професіонал</Item>
+        <Item name="Prospect">Перспективний</Item>
+        <Item name="Psychopath">Психопат</Item>
+        <Item name="Retard">Відсталий</Item>
+        <Item name="Roulade">Рулет</Item>
+        <Item name="Shadow">Тінь</Item>
+        <Item name="SilentAssassin">Тихий вбивця</Item>
+        <Item name="Slaugtherer">Різник</Item>
+        <Item name="Slayer">Руйнівник</Item>
+        <Item name="Sloth">Лінивець</Item>
+        <Item name="Slowhand">Повільний</Item>
+        <Item name="Sociopath">Соціопат</Item>
+        <Item name="Specialist">Спеціаліст</Item>
+        <Item name="Thug">Головоріз</Item>
+        <Item name="Wannabe">Хотілка</Item>
+        <Item name="Wimp">Зануда</Item>
+      </Item>
+      <Item name="RateA">Хітман</Item>
+      <Item name="RateB">Убивця</Item>
+      <Item name="RateC">Хотілка</Item>
+      <Item name="RateD">Рембо</Item>
+      <Item name="Rating">Рейтинг:</Item>
+      <Item name="Saves">Збереження:</Item>
+      <Item name="ShotsFired">Постріли:</Item>
+      <Item name="Stealth">Таємність:</Item>
+      <Item name="Time">Час:</Item>
+    </Item>
+    <Item name="Symbols">
+      <Item name="Complete">¶</Item>
+      <Item name="Incomplete">•</Item>
+    </Item>
+    <Item name="Titles">
+      <Item name="C0-1">Притулок Ґонтрано</Item>
+      <Item name="C1-1">Анафема</Item>
+      <Item name="C2-1">Оглядини Санкт-Петербурга</Item>
+      <Item name="C2-2">Зустріч у Парку Кірова</Item>
+      <Item name="C2-3">Вбивця із труби</Item>
+      <Item name="C2-4">Запрошення на вечірку</Item>
+      <Item name="C3-1">Вистежування Гаямото</Item>
+      <Item name="C3-2">Прохід до Захованої Долини</Item>
+      <Item name="C3-2a">Захована Долина</Item>
+      <Item name="C3-2b">Біля воріт</Item>
+      <Item name="C3-3">Останній бій сьогуна</Item>
+      <Item name="C4-1">Вбивство у підвалі</Item>
+      <Item name="C4-2">Нічна зміна</Item>
+      <Item name="C4-3">Робота у джакузі</Item>
+      <Item name="C5-1">Вбивство на базарі</Item>
+      <Item name="C5-2">Перехоплення автоколони</Item>
+      <Item name="C5-3">Тунельний щур</Item>
+      <Item name="C6-1">Засідка у Храмовому місті</Item>
+      <Item name="C6-2">Смерть Ханелоре</Item>
+      <Item name="C6-3">Надзвичайна гостинність</Item>
+      <Item name="C7-1">Повернення у Санкт-Петербург</Item>
+      <Item name="C8-1">Спокута в Ґонтрано</Item>
+      <Item name="Loading">Завантаження...</Item>
+    </Item>
+  </MainPart>
+  <MainPart name="C5-2">
+    <Item name="formatstring">
+      <Item name="ionBriefing/MissionArrival%d">
+        <Item name="">
+          <Item name="Öbèãko. Pòö!">
+            <Item name="� mehe beêèka õectû... Baöe oàêaãhahhþ ò mehe. Boho ãòäe ñotòähe. Ñikêòétecþ, øoà hixto éoáo he àaõèb, ôe ãòäe heàeåñeõho.">
+              <Item name="xobaétecþ ãecû - tòt àòãe àeåêaã!">
+                <Item name="to">
+                  <Item name="�ètè coêãatam OOH.">
+                    <Item name="tobap cûoáoãhi ñiåhiöe.  Xah ñobeptaütûcþ b cbié ñaêaô paåom å kohtèháehtom coêãatib OOH. Bohè ñpèàòãòtû ño cxiãhié ãopoåi.  Êikbiãòéte éoáo ão toáo þk bih ãocþáhe ñaêaôò - aêe he åabãaböè ökoãè coêãatam OOH. Ôe àòãe ökiãêèbo ãêþ àiåhecò, 47 - tomò åpoàitû bce õècto!  Haceêehhþ àòãe ãpatòbatècû, þkøo ñoàaõètû ihoåemôþ å beêèkoý ñòökoý ñoàêèåò ïx ãomibok - tomò àòãûte òbaähi.  Baö kohtakt, ha im'þ Macòã, õekatème bac tam. Ò hûoáo ü oàêaãhahhþ ãêþ bac - éoáo àòãèhok ñoåhaõehèé ha mañi.  Ôþ oñepaôiþ bèmaáaü bècokoï toõhocti, 47 - he åaêeäte biã åmihhèx, þki moäòtû åatpèmatè bac. Þ ñobtopýý, 47 - ñpèàepitû xaha aêe he åaökoãûte coêãatam.">
+                      <Item name="hoåemeôû?">
+                        <Item name="�o ñoptpetè ha bcix ñêakatax ò micti.">
+                          <Item name="ãòéte éoáo ão toáo þk bih ãocþáhe ñaêaôò - aêe he åabãaböè ökoãè coêãatam OOH. Ôe àòãe ökiãêèbo ãêþ àiåhecò, 47 - tomò åpoàitû bce õècto!">
+                            <Item name="õehèé ha mañi.">
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                              <Item name="" />
+                            </Item>
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                            <Item name="" />
+                          </Item>
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                          <Item name="" />
+                        </Item>
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                        <Item name="" />
+                      </Item>
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                      <Item name="" />
+                    </Item>
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                    <Item name="" />
+                  </Item>
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                  <Item name="" />
+                </Item>
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+                <Item name="" />
+              </Item>
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+              <Item name="" />
+            </Item>
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+            <Item name="" />
+          </Item>
+        </Item>
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+        <Item name="" />
+      </Item>
+      <Item name="" />
+    </Item>
+    <Item name="" />
+    <Item name="" />
+    <Item name="" />
+    <Item name="" />
+    <Item name="" />
+    <Item name="" />
+    <Item name="" />
+    <Item name="" />
+    <Item name="" />
+  </MainPart>
+</HitmanLOC>
