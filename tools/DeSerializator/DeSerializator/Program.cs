@@ -77,7 +77,7 @@ namespace DeSerializator
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-           // LocToXML();
+          //  LocToXML();
             XmlToLoc();
             UpdateZip();
             return;
@@ -146,24 +146,31 @@ namespace DeSerializator
             var k = 0;
             foreach (string xmlFile in xmlFiles)
             {
-                var xml = File.ReadAllText(xmlFile, Encoding.UTF8);
-                XmlSerializer serializer = new XmlSerializer(typeof(HitmanLOC));
-                HitmanLOC hitmanLOC;
-                using (StringReader reader = new StringReader(xml))
+                try
                 {
-                    hitmanLOC = (HitmanLOC)serializer.Deserialize(reader);
-                    for (var j = 0; j < hitmanLOC.MainPart.Count; j++)
+                    var xml = File.ReadAllText(xmlFile, Encoding.UTF8);
+                    XmlSerializer serializer = new XmlSerializer(typeof(HitmanLOC));
+                    HitmanLOC hitmanLOC;
+                    using (StringReader reader = new StringReader(xml))
                     {
-                        for (var i = 0; i < hitmanLOC.MainPart[j].Items.Count; i++)
+                        hitmanLOC = (HitmanLOC)serializer.Deserialize(reader);
+                        for (var j = 0; j < hitmanLOC.MainPart.Count; j++)
                         {
-                            GoThrouClass(hitmanLOC.MainPart[j].Items[i]);
+                            for (var i = 0; i < hitmanLOC.MainPart[j].Items.Count; i++)
+                            {
+                                GoThrouClass(hitmanLOC.MainPart[j].Items[i]);
+                            }
                         }
                     }
-                }
-                var nexXml = Path.GetFileName(xmlFile);
-                using (StreamWriter writer = new StreamWriter(xmlDirectory + "2\\" + nexXml, false, Encoding.UTF8))
+                    var nexXml = Path.GetFileName(xmlFile);
+                    using (StreamWriter writer = new StreamWriter(xmlDirectory + "2\\" + nexXml, false, Encoding.UTF8))
+                    {
+                        serializer.Serialize(writer, hitmanLOC);
+                    }
+
+                }catch (Exception ex)
                 {
-                    serializer.Serialize(writer, hitmanLOC);
+                    Console.WriteLine($"Error processing file {xmlFile}: {ex.Message}");
                 }
                 k++;
             }

@@ -4,8 +4,8 @@
     <Item name="Actions">
       <Item name="Activate">Активувати</Item>
       <Item name="Basement">Підвал</Item>
-      <Item name="CallAgency">Викликати агенцію</Item>
-      <Item name="CallElevator">Викликати ліфт</Item>
+      <Item name="CallAgency">Визвати агенцію</Item>
+      <Item name="CallElevator">Визвати ліфт</Item>
       <Item name="ChangeClothes">Змінити одяг</Item>
       <Item name="ClimbOverWall">Перелізти через стіну</Item>
       <Item name="ClimbThroughWindow">Перелізти через вікно</Item>
@@ -347,7 +347,7 @@
 Ви впевнені?</Item>
       <Item name="Continue">Продовжити гру</Item>
       <Item name="ControlSetup">Керування</Item>
-      <Item name="Credits">Автори</Item>
+      <Item name="Credits">Кредити</Item>
       <Item name="CreditsText">Нітмаn 2: Sіlеnт Аssаssіn був продукований
 (в алфавітному порядку)
 
@@ -1360,6 +1360,108 @@
       <Item name="C7-1">Повернення у Санкт-Петербург</Item>
       <Item name="C8-1">Спокута в Ґонтрано</Item>
       <Item name="Loading">Завантаження...</Item>
+    </Item>
+  </MainPart>
+  <MainPart name="C2-3">
+    <Item name="General_CIAguy">
+      <Item name="CIAreply1">Ой, ну, знаєте - подібна інформація зазвичай засекречена, і я...</Item>
+      <Item name="CIAreply2">Еее... звичайно ні, пане. Але ви бачите, це ніби... я...</Item>
+      <Item name="CIAreply3">Але... В... це... він... ні! Ооой!</Item>
+      <Item name="CIAreply4">І-і-і... а якщо ви зробите правильно...?</Item>
+      <Item name="GeneralQ1">Тож - ти маєш частину інформації що мені потрібна. Хто ця людина, яку найняли щоб вбити мене і де вона?</Item>
+      <Item name="GeneralQ2">Слухай сюди, ти американська гадина! Ти знаєш хто він є - не грайся зі мною!</Item>
+      <Item name="GeneralQ3">В бачу - ти хочеш битися! Добре, у нас є інші засоби - я так хотів уникнути цього...</Item>
+      <Item name="GeneralQ4">Зараз - сиди спокійно. Вкщо я не зроблю це правильно - тобі трохи болітиме...</Item>
+      <Item name="GeneralQ5">Потім болітиме більше!</Item>
+    </Item>
+    <Item name="Guards">
+      <Item name="Guard_Booth-Call6">Що там у тебе...?</Item>
+      <Item name="Guard_Booth-Call7">Ой, жахливо!</Item>
+      <Item name="Guard_Booth-Call8">Ага... ага... ага... я знаю... у мене також!</Item>
+      <Item name="Guardsaggresive10">Він озброєний!</Item>
+      <Item name="Guardsaggresive12">Стій на місці!</Item>
+      <Item name="Guardsaggresive4">Стій або я стріляю!</Item>
+      <Item name="Guardsaggresive5">Стережися!</Item>
+      <Item name="Guardsaggresive6">Тривога!</Item>
+      <Item name="Guardsaggresive7">Вбити його!</Item>
+      <Item name="Guardsaggresive8">Застрелити його!</Item>
+      <Item name="Pickup_Pager">Що це в біса таке? Хтось загубив пейджер? Він поламаний? Гммм... нехай.</Item>
+      <Item name="Sounding_alarm1">Тривога! Тривога!</Item>
+    </Item>
+    <Item name="Hitman_CIAguy">
+      <Item name="CIA1">47? Це... що справді ти? В не можу повірити - це справді ти...</Item>
+      <Item name="CIA3">Ага, я знаю - я у тебе в боргу. Дай мені знати якщо я зможу допомогти чим небудь - просто скажи!</Item>
+      <Item name="CIA5">Добре, добре... гей, я знаю як ми можем швидко вибратися звідси. В вкрав ключ-картку у п'яного охоронця - розумно, га?</Item>
+      <Item name="CIA7">Ну пішли, думаю ми розрахувались...</Item>
+      <Item name="HM2">В також - думаю востаннє ми бачились в Румунії. Ти був тоді досить розбитий...</Item>
+      <Item name="HM4">Почни з одягання штанів...</Item>
+      <Item name="HM6">Не погано - я використаю це.</Item>
+    </Item>
+    <Item name="Info">
+      <Item name="1stBasementAlarmed.">Охоронці на 1 поверсі підвалу були стривожені</Item>
+      <Item name="2ndBasementAlarmed.">Охоронці на 2 поверсі підвалу були стривожені</Item>
+      <Item name="AgentDied">Агент помер</Item>
+      <Item name="BegunTorture">Генерал почав катувати полоненого</Item>
+      <Item name="BombrangeIn">Досить близько щоб скинути бомбу</Item>
+      <Item name="BombrangeOut">Задалеко від стіни щоб скинути бомбу</Item>
+      <Item name="TroopsInSewers">Піднята тривога - солдати патрулюють каналізаційну систему</Item>
+      <Item name="TruckLeavingSoon">Вантажівка скоро від'їзджає</Item>
+      <Item name="TruckStartUp">Вантажівка рушає</Item>
+    </Item>
+    <Item name="IngameMap">
+      <Item name="1stBasement">1 пов. підвалу</Item>
+      <Item name="2ndBasement">2 пов. підвалу</Item>
+      <Item name="HeadQuarter">Штаб</Item>
+      <Item name="Sewer">Каналізація</Item>
+      <Item name="Street">Вулиці</Item>
+    </Item>
+    <Item name="Laptop">
+      <Item name="1">Знайти обладнання на армійському складі.</Item>
+      <Item name="2">Вбити генерала Міхаіла Бардаченка.</Item>
+      <Item name="3">Звільнити полоненого з 2 поверху підвалу.</Item>
+      <Item name="Briefing">47 - Діана тут. Блискуче!
+
+Наш клієнт задоволений, але поспішає зупинити останніх двох генералів до того як вони підберуться близько до правди.
+
+Ми отримали інформацію, що один з генералів - Міхаіл Бардаченка, допитує людей в підвалі військового об'єкту поблизу Невського проспекту.
+
+Відео було записане камерою охорони майже два дні тому, тому треба поспішати.
+
+Десь в багаторівневому лабіринті коридорів знайдіть ціль, а також впевніться, що полонений, якого допитують, втече.
+
+Ваше обладнання знаходиться в складі біля контейнера позначеного "FСК", одразу за головним входом.
+
+Охорона посилена через чутки про можливу спробу вбивства генерала.
+
+Тому - після виконання завдання буде лише один шлях для виходу.
+
+Підірвіть стіну, пробивши прохід до каналізації і поверніться нею до метро  - ми знайшли одне місце де стіна досить тонка - воно вказане на мапі.
+
+Не забрудніться, 47!</Item>
+      <Item name="Escape">Втекти пробивши шлях в каналізацію і діставшись до метро.</Item>
+      <Item name="Files">
+        <Item name="Map">Мапа району</Item>
+        <Item name="Photo1">Фото 1</Item>
+        <Item name="Video">Відео цілі</Item>
+      </Item>
+    </Item>
+    <Item name="Missionbriefing">
+      <Item name="10a">Не забрудніться, 47!</Item>
+      <Item name="1a">47 - Діана тут. Блискуче!</Item>
+      <Item name="2a">Наш клієнт задоволений, але поспішає зупинити останніх двох генералів до того як вони підберуться близько до правди.</Item>
+      <Item name="3a">Ми отримали інформацію, що один з генералів - Міхаіл Бардаченка, допитує людей в підвалі військового об'єкту поблизу Невського проспекту.</Item>
+      <Item name="4a">Відео було записане камерою охорони майже два дні тому, тому треба поспішати.</Item>
+      <Item name="5a">Десь в багаторівневому лабіринті коридорів знайдіть ціль, а також впевніться, що полонений, якого допитують, втече.</Item>
+      <Item name="6a">Ваше обладнання знаходиться в складі біля контейнера позначеного "FСК", одразу за головним входом.</Item>
+      <Item name="7a">Охорона посилена через чутки про можливу спробу вбивства генерала.</Item>
+      <Item name="8a">Тому - після виконання завдання буде лише один шлях для виходу.</Item>
+      <Item name="9a">Підірвіть стіну, пробивши прохід до каналізації і поверніться нею до метро  - ми знайшли одне місце де стіна досить тонка - воно вказане на мапі.</Item>
+    </Item>
+    <Item name="MissionFailed">
+      <Item name="AgentKilled">Агент вбитий</Item>
+    </Item>
+    <Item name="Title">
+      <Item name="1">Вбивця із труби</Item>
     </Item>
   </MainPart>
 </HitmanLOC>
