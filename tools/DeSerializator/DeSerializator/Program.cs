@@ -299,7 +299,7 @@ namespace DeSerializator
                 }
             }
 
-            foreach (string xmlFile in xmlFiles)
+            foreach (string xmlFile in xmlFiles.Where(x => !string.Equals(Path.GetFileName(x), "main.xml", StringComparison.InvariantCultureIgnoreCase)).ToList())
             {
                 var xml = File.ReadAllText(xmlFile, Encoding.UTF8);
                 XmlSerializer serializer = new XmlSerializer(typeof(HitmanLOC));
