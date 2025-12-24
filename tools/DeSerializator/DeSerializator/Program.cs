@@ -50,29 +50,29 @@ namespace DeSerializator
         };
 
         static string localPath = ".";
-        static List<string> additionalFiles = new List<string>()
-        {
-            "streams.wav",
-            "config.exe",
-            "d3d8.dll",
-            "dxwrapper.dll",
+        static List<string> additionalFiles = new List<string>();
+        //{
+        //    "streams.wav",
+        //    "config.exe",
+        //    "d3d8.dll",
+        //    "dxwrapper.dll",
 
-            "dxwrapper.ini",
-            "eax.dll",
-            "hitman2.exe",
-            "Hitman2.ini",
+        //    "dxwrapper.ini",
+        //    "eax.dll",
+        //    "hitman2.exe",
+        //    "Hitman2.ini",
 
-            "jpegdll.dll",
-            "Keyboard.cfg",
-            "Msvcp60.dll",
-            "msvcrt.dll",
+        //    "jpegdll.dll",
+        //    "Keyboard.cfg",
+        //    "Msvcp60.dll",
+        //    "msvcrt.dll",
 
-            "p5dll.dll",
-            "RenderD3D.dll",
-            "RenderOpenGL.dll",
-            "xmlparse.dll",
+        //    "p5dll.dll",
+        //    "RenderD3D.dll",
+        //    "RenderOpenGL.dll",
+        //    "xmlparse.dll",
 
-        };
+        //};
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
