@@ -4,8 +4,8 @@
     <Item name="Actions">
       <Item name="Activate">Активувати</Item>
       <Item name="Basement">Підвал</Item>
-      <Item name="CallAgency">Визвати агенцію</Item>
-      <Item name="CallElevator">Визвати ліфт</Item>
+      <Item name="CallAgency">Викликати агенцію</Item>
+      <Item name="CallElevator">Викликати ліфт</Item>
       <Item name="ChangeClothes">Змінити одяг</Item>
       <Item name="ClimbOverWall">Перелізти через стіну</Item>
       <Item name="ClimbThroughWindow">Перелізти через вікно</Item>
@@ -52,7 +52,7 @@
       <Item name="Equip">Взяти предмет</Item>
       <Item name="FireWeapon">Стріляти</Item>
       <Item name="HolsterUnholster">Сховати/вийняти зброю</Item>
-      <Item name="Inventory">Відкрити інвентарій</Item>
+      <Item name="Inventory">Відкрити інвентар</Item>
       <Item name="Lean">Нахилитися</Item>
       <Item name="LeanLeft">Нахилитися вліво</Item>
       <Item name="LeanRight">Нахилитися вправо</Item>
@@ -87,7 +87,7 @@
         <Item name="RightAnalog">Правий джойстик</Item>
         <Item name="SelectButton">Кнопка вибору</Item>
       </Item>
-      <Item name="QuickInventory">Озброїтись/Інвентарій</Item>
+      <Item name="QuickInventory">Озброїтись/Інвентар</Item>
       <Item name="ReloadWeapon">Перезарядити</Item>
       <Item name="Run">Бігти</Item>
       <Item name="RunToggle">Постійний біг</Item>
@@ -793,7 +793,7 @@
         </Item>
         <Item name="Cigar">
           <Item name="FreeText">
-            <Item name="1">Часто використовується російськими агентами КГБ</Item>
+            <Item name="1">Часто використовується кацапськими агентами КГБ</Item>
             <Item name="2">Не користуйся цим!</Item>
             <Item name="3">Це тобі зашкодить.</Item>
           </Item>
@@ -910,7 +910,7 @@
         <Item name="GunPSM">
           <Item name="Caliber">5,45мм</Item>
           <Item name="Length">16 см</Item>
-          <Item name="Type">Пістолет російських служб</Item>
+          <Item name="Type">Пістолет кацапських служб</Item>
           <Item name="Weight">0,46 кг</Item>
         </Item>
         <Item name="GunRuger22Silenced">
@@ -932,7 +932,7 @@
         <Item name="RifleAKSU">
           <Item name="Caliber">5,45 мм</Item>
           <Item name="Length">67,5 см</Item>
-          <Item name="Type">Похідний російського АК-47</Item>
+          <Item name="Type">Похідний кацапського АК-47</Item>
           <Item name="Weight">3,1 кг</Item>
         </Item>
         <Item name="RifleFranchiSpas12">
@@ -974,13 +974,13 @@
         <Item name="RifleSniperDragunov">
           <Item name="Caliber">7,62 мм</Item>
           <Item name="Length">125,5 см</Item>
-          <Item name="Type">Гвинтівка російських снайперів</Item>
+          <Item name="Type">Гвинтівка кацапських снайперів</Item>
           <Item name="Weight">4,31 кг</Item>
         </Item>
         <Item name="RifleSniperDragunovFakeAmmo">
           <Item name="Caliber">7,62 мм</Item>
           <Item name="Length">125,5 см</Item>
-          <Item name="Type">Гвинтівка російських снайперів</Item>
+          <Item name="Type">Гвинтівка кацапських снайперів</Item>
           <Item name="Weight">4,31 кг</Item>
         </Item>
         <Item name="RifleSniperR93">
