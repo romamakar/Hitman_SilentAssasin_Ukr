@@ -741,7 +741,7 @@
       <Item name="Saving_Xbox">Збереження гри.
 Не вимикайте вашу Хвох консоль</Item>
       <Item name="ScreenDepth">Глибина кольору</Item>
-      <Item name="ScreenResolution">Резолюція</Item>
+      <Item name="ScreenResolution">Розширення</Item>
       <Item name="SelectDifficulty">Виберіть складність</Item>
       <Item name="SfxVolume">Ефекти</Item>
       <Item name="Shadows">Тіні</Item>
@@ -753,7 +753,7 @@
       <Item name="TestNTSC">Тест</Item>
       <Item name="TextureDepth">Глибина кольору текстур</Item>
       <Item name="TextureFilter">Фільтр текстур</Item>
-      <Item name="TextureResolution">Резолюція текстур</Item>
+      <Item name="TextureResolution">Розгирення текстур</Item>
       <Item name="TRAODVideo">Томв Rаіdеr: Аngеl Оf Dаrкnеss</Item>
       <Item name="Trilinear">Трилінійна</Item>
       <Item name="TS2Video">Тімеsрlіттеrs 2</Item>
