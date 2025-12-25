@@ -3,7 +3,7 @@
 ; Non-commercial use only
 
 #define MyAppName "Українізатор для Hitman 2: Silent Assassin"
-#define MyAppVersion "1.01"
+#define MyAppVersion "1.02"
 #define MyAppPublisher "romamakar"
 
 [Setup]
@@ -19,7 +19,7 @@ DisableDirPage=no
 ;DefaultGroupName={#MyAppName}
 ; Uncomment the following line to run in non administrative install mode (install for current user only).
 ;PrivilegesRequired=lowest
-OutputBaseFilename=HitmanSilentAssassin_Ukr1_01
+OutputBaseFilename=HitmanSilentAssassin_Ukr1_02
 OutputDir=Output
 SetupIconFile=C:\actions-runner-sa\_work\Hitman_SilentAssasin_Ukr\Hitman_SilentAssasin_Ukr\installer\installer.ico
 SolidCompression=yes
