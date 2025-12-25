@@ -235,7 +235,7 @@ namespace DeSerializator
                     }
                     else
                     {
-
+                        Console.WriteLine($"В архіві {archivePath} не знайдено запис {entryPath}");
                     }
                 }
 
