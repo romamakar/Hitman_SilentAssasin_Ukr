@@ -233,6 +233,10 @@ namespace DeSerializator
                         sourceFile = File.Exists(sourceFile) ? sourceFile : Path.Combine(sourceFolder, "main.loc");
                         archive.CreateEntryFromFile(sourceFile, entryPath, CompressionLevel.Optimal);
                     }
+                    else
+                    {
+
+                    }
                 }
 
                 Console.WriteLine($"Файл {entryPath} додано до архіву {archivePath}");
