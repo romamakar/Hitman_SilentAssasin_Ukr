@@ -736,7 +736,7 @@
       <Item name="SaveFailed">Не вдалося зберегти гру</Item>
       <Item name="SaveGameMaxReached">Досягнуто максимальної кількості збережень, 
 видаліть чи перезапишіть збереження</Item>
-      <Item name="SavesLeft">Залишилось збереженнь: %d</Item>
+      <Item name="SavesLeft">Залишилось збережень: %d</Item>
       <Item name="Saving">Зачекайте поки гра збережеться.</Item>
       <Item name="Saving_Xbox">Збереження гри.
 Не вимикайте вашу Хвох консоль</Item>
