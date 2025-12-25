@@ -192,7 +192,7 @@ namespace DeSerializator
                 string fileName = Path.GetFileNameWithoutExtension(filePath);
                 string archivePath = filePath, entryPath;
 
-                if (fileName.Contains("_"))
+                if (fileName.Contains("_") && !filePath.Contains("Intro"))
                 {
                     var parts = fileName.Split('_');
                     string level = parts[0];
