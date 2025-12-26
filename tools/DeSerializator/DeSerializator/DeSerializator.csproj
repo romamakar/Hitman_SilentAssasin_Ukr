@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="Hitman2Loc.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Hitman2Loc.exe.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Hitman2Loc.pdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="loctool.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

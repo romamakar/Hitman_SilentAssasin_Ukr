@@ -305,64 +305,99 @@ namespace DeSerializator
 
             foreach (string xmlFile in xmlFiles.Where(x => !string.Equals(Path.GetFileName(x), "main.xml", StringComparison.InvariantCultureIgnoreCase)).ToList())
             {
-                var xml = File.ReadAllText(xmlFile, Encoding.UTF8);
-                XmlSerializer serializer = new XmlSerializer(typeof(HitmanLOC));
-                HitmanLOC hitmanLOC;
-                using (StringReader reader = new StringReader(xml))
+                if (xmlFile.Contains("C2-2_Briefing.XML") || xmlFile.Contains("C2-2__MAIN.XML"))
                 {
-                    hitmanLOC = (HitmanLOC)serializer.Deserialize(reader);
+                    string fileName = Path.GetFileName(xmlFile);
+                    string outputLocFile = Path.ChangeExtension(fileName, ".loc");
 
-                    hitmanLOC.MainPart[0] = mainHitmanLOC.MainPart[0];
-                    for (var j = 1; j < hitmanLOC.MainPart.Count; j++)
+                    Process process = new Process()
                     {
-                        for (var i = 0; i < hitmanLOC.MainPart[j].Items.Count; i++)
+                        StartInfo = new ProcessStartInfo
                         {
-                            GoThrouClassToUTF(hitmanLOC.MainPart[j].Items[i]);
+                            FileName = "Hitman2Loc.exe",
+                            Arguments = $"{xmlDirectory}\\{fileName} {locDirectory}\\{outputLocFile}",
+                            RedirectStandardOutput = true,
+                            RedirectStandardError = true,
+                            UseShellExecute = false,
+                            CreateNoWindow = true
+                        }
+                    };
+
+                    Console.WriteLine($"Processing: {xmlFile} -> {outputLocFile}");
+                    process.Start();
+
+                    //  process.WaitForExit();
+                    Task.Delay(1000).GetAwaiter().GetResult();
+                    string output1 = process.StandardOutput.ReadToEnd();
+                    string error1 = process.StandardError.ReadToEnd();
+
+                    if (!string.IsNullOrEmpty(output1))
+                        Console.WriteLine(output1);
+                    if (!string.IsNullOrEmpty(error1))
+                        Console.WriteLine($"Error: {error1}");
+                    process.Kill();
+                }
+                else
+                {
+                    var xml = File.ReadAllText(xmlFile, Encoding.UTF8);
+                    XmlSerializer serializer = new XmlSerializer(typeof(HitmanLOC));
+                    HitmanLOC hitmanLOC;
+                    using (StringReader reader = new StringReader(xml))
+                    {
+                        hitmanLOC = (HitmanLOC)serializer.Deserialize(reader);
+
+                        hitmanLOC.MainPart[0] = mainHitmanLOC.MainPart[0];
+                        for (var j = 1; j < hitmanLOC.MainPart.Count; j++)
+                        {
+                            for (var i = 0; i < hitmanLOC.MainPart[j].Items.Count; i++)
+                            {
+                                GoThrouClassToUTF(hitmanLOC.MainPart[j].Items[i]);
+                            }
                         }
                     }
-                }
 
-                using (StreamWriter writer = new StreamWriter(xmlFile, false, Encoding.UTF8))
-                {
-                    serializer.Serialize(writer, hitmanLOC);
-                }
-
-                string fileName = Path.GetFileName(xmlFile);
-                string[] lines = File.ReadAllLines(xmlFile, Encoding.UTF8);
-                if (lines.Length > 0)
-                {
-                    lines[0] = "<?xml version=\"1.0\" encoding=\"windows-1251\" standalone=\"no\"?>";
-                    File.WriteAllLines($"{newXmplDirectory}\\{fileName}", lines, Encoding.UTF8);
-                }
-
-                string outputLocFile = Path.ChangeExtension(fileName, ".loc");
-
-                Process process = new Process()
-                {
-                    StartInfo = new ProcessStartInfo
+                    using (StreamWriter writer = new StreamWriter(xmlFile, false, Encoding.UTF8))
                     {
-                        FileName = "loctool.exe",
-                        Arguments = $"c {newXmplDirectory}\\{fileName} {locDirectory}\\{outputLocFile}",
-                        RedirectStandardOutput = true,
-                        RedirectStandardError = true,
-                        UseShellExecute = false,
-                        CreateNoWindow = true
+                        serializer.Serialize(writer, hitmanLOC);
                     }
-                };
 
-                Console.WriteLine($"Processing: {xmlFile} -> {outputLocFile}");
-                process.Start();
+                    string fileName = Path.GetFileName(xmlFile);
+                    string[] lines = File.ReadAllLines(xmlFile, Encoding.UTF8);
+                    if (lines.Length > 0)
+                    {
+                        lines[0] = "<?xml version=\"1.0\" encoding=\"windows-1251\" standalone=\"no\"?>";
+                        File.WriteAllLines($"{newXmplDirectory}\\{fileName}", lines, Encoding.UTF8);
+                    }
 
-                //  process.WaitForExit();
-                Task.Delay(1000).GetAwaiter().GetResult();
-                string output1 = process.StandardOutput.ReadToEnd();
-                string error1 = process.StandardError.ReadToEnd();
+                    string outputLocFile = Path.ChangeExtension(fileName, ".loc");
 
-                if (!string.IsNullOrEmpty(output1))
-                    Console.WriteLine(output1);
-                if (!string.IsNullOrEmpty(error1))
-                    Console.WriteLine($"Error: {error1}");
-                process.Kill();
+                    Process process = new Process()
+                    {
+                        StartInfo = new ProcessStartInfo
+                        {
+                            FileName = "loctool.exe",
+                            Arguments = $"c {newXmplDirectory}\\{fileName} {locDirectory}\\{outputLocFile}",
+                            RedirectStandardOutput = true,
+                            RedirectStandardError = true,
+                            UseShellExecute = false,
+                            CreateNoWindow = true
+                        }
+                    };
+
+                    Console.WriteLine($"Processing: {xmlFile} -> {outputLocFile}");
+                    process.Start();
+
+                    //  process.WaitForExit();
+                    Task.Delay(1000).GetAwaiter().GetResult();
+                    string output1 = process.StandardOutput.ReadToEnd();
+                    string error1 = process.StandardError.ReadToEnd();
+
+                    if (!string.IsNullOrEmpty(output1))
+                        Console.WriteLine(output1);
+                    if (!string.IsNullOrEmpty(error1))
+                        Console.WriteLine($"Error: {error1}");
+                    process.Kill();
+                }
             }
 
         }
