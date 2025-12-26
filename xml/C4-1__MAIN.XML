@@ -1376,7 +1376,7 @@
       <Item name="FiremenActionMode7">Ти виродок!</Item>
     </Item>
     <Item name="Hitman">
-      <Item name="Arrival">Вкий клас - вражає! Але немає часу на розглядання - моя робота під землею.</Item>
+      <Item name="Arrival">Який клас - вражає! Але немає часу на розглядання - моя робота під землею.</Item>
       <Item name="AskingStaff1">
         <Item name="female">
           <Item name="1a">Вибачте - не могли б ви вказати мені напрямок до підвалу, будь ласка?</Item>
