@@ -305,7 +305,11 @@ namespace DeSerializator
 
             foreach (string xmlFile in xmlFiles.Where(x => !string.Equals(Path.GetFileName(x), "main.xml", StringComparison.InvariantCultureIgnoreCase)).ToList())
             {
-                if (xmlFile.Contains("C2-2_Briefing.XML") || xmlFile.Contains("C2-2__MAIN.XML"))
+                if (xmlFile.Contains("C2-2_Briefing.XML") || xmlFile.Contains("C2-2__MAIN.XML") ||
+                    xmlFile.Contains("C2-4_Briefing.XML") || xmlFile.Contains("C2-4__MAIN.XML") ||
+                    xmlFile.Contains("C4-3_Briefing.XML") || xmlFile.Contains("C4-3__MAIN.XML") ||
+                    xmlFile.Contains("C5-2_Briefing.XML") || xmlFile.Contains("C5-2__MAIN.XML") ||
+                    xmlFile.Contains("C5-3_Briefing.XML") || xmlFile.Contains("C5-3__MAIN.XML") )
                 {
                     //skip
                 }
