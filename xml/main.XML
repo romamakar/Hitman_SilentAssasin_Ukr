@@ -813,7 +813,7 @@
         </Item>
         <Item name="CloseCombatFiberWire">
           <Item name="FreeText">
-            <Item name="1">Волокно. Не задіює металодетектори.</Item>
+            <Item name="1">Струна. Не задіює металодетектори.</Item>
           </Item>
           <Item name="Type">Шнур для удушення</Item>
         </Item>
@@ -1048,7 +1048,7 @@
         <Item name="Cigar">Сигара</Item>
         <Item name="CloseCombatAxe">Пожежна сокира</Item>
         <Item name="CloseCombatChloroform">Анестетик</Item>
-        <Item name="CloseCombatFiberWire">Волокно</Item>
+        <Item name="CloseCombatFiberWire">Струна</Item>
         <Item name="CloseCombatGolfClub">Гольфова ключка</Item>
         <Item name="CloseCombatKitchenKnife">Кухонний ніж</Item>
         <Item name="CloseCombatKnifePentagon">Бойовий ніж</Item>
@@ -1112,7 +1112,7 @@
         <Item name="RifleSniperR93">Снайперка R93</Item>
         <Item name="RifleSniperWaltherCustom">Замовна снайперка W2000</Item>
         <Item name="RifleSniperWaltherWA2000">Снайперка W2000</Item>
-        <Item name="SafeCombination">Комбінація до сейфу</Item>
+        <Item name="SafeCombination">Код до сейфу</Item>
         <Item name="Sausages">Сосиска</Item>
         <Item name="SmgMP5">Пістолет-кулемет</Item>
         <Item name="SmgMP5SD6">Заглушений пістолет-кулемет</Item>
@@ -1158,7 +1158,7 @@
         <Item name="Cigar">Сигара</Item>
         <Item name="CloseCombatAxe">Сокира</Item>
         <Item name="CloseCombatChloroform">Анестетик</Item>
-        <Item name="CloseCombatFiberWire">Волокно</Item>
+        <Item name="CloseCombatFiberWire">Струна</Item>
         <Item name="CloseCombatGolfClub">Ключка</Item>
         <Item name="CloseCombatKitchenKnife">Кухонний ніж</Item>
         <Item name="CloseCombatKnifePentagon">Бойовий ніж</Item>
@@ -1234,7 +1234,7 @@
         <Item name="RifleSniperR93">R93</Item>
         <Item name="RifleSniperWaltherCustom">W2000 замовна</Item>
         <Item name="RifleSniperWaltherWA2000">W2000</Item>
-        <Item name="SafeCombination">Комбінація</Item>
+        <Item name="SafeCombination">Код для сейфу</Item>
         <Item name="Sausages">Сосиска</Item>
         <Item name="SmgMP5">ПК</Item>
         <Item name="SmgMP5SD6">ПКЗ</Item>
