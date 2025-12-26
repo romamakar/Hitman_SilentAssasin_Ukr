@@ -307,35 +307,7 @@ namespace DeSerializator
             {
                 if (xmlFile.Contains("C2-2_Briefing.XML") || xmlFile.Contains("C2-2__MAIN.XML"))
                 {
-                    string fileName = Path.GetFileName(xmlFile);
-                    string outputLocFile = Path.ChangeExtension(fileName, ".loc");
-
-                    Process process = new Process()
-                    {
-                        StartInfo = new ProcessStartInfo
-                        {
-                            FileName = "Hitman2Loc.exe",
-                            Arguments = $"{xmlDirectory}\\{fileName} {locDirectory}\\{outputLocFile}",
-                            RedirectStandardOutput = true,
-                            RedirectStandardError = true,
-                            UseShellExecute = false,
-                            CreateNoWindow = true
-                        }
-                    };
-
-                    Console.WriteLine($"Processing: {xmlFile} -> {outputLocFile}");
-                    process.Start();
-
-                    //  process.WaitForExit();
-                    Task.Delay(1000).GetAwaiter().GetResult();
-                    string output1 = process.StandardOutput.ReadToEnd();
-                    string error1 = process.StandardError.ReadToEnd();
-
-                    if (!string.IsNullOrEmpty(output1))
-                        Console.WriteLine(output1);
-                    if (!string.IsNullOrEmpty(error1))
-                        Console.WriteLine($"Error: {error1}");
-                    process.Kill();
+                    //skip
                 }
                 else
                 {
