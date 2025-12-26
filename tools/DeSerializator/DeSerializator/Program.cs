@@ -309,7 +309,7 @@ namespace DeSerializator
                     xmlFile.Contains("C2-4_Briefing.XML") || xmlFile.Contains("C2-4__MAIN.XML") ||
                     xmlFile.Contains("C4-3_Briefing.XML") || xmlFile.Contains("C4-3__MAIN.XML") ||
                     xmlFile.Contains("C5-2_Briefing.XML") || xmlFile.Contains("C5-2__MAIN.XML") ||
-                    xmlFile.Contains("C5-3_Briefing.XML") || xmlFile.Contains("C5-3__MAIN.XML") )
+                    xmlFile.Contains("C5-3_Briefing.XML") || xmlFile.Contains("C5-3__MAIN.XML") || xmlFile.Contains("C2-4_CUT_Hitman_CheckSuitcase.XML"))
                 {
                     //skip
                 }
