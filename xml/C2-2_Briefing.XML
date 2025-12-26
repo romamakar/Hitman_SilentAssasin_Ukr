@@ -1381,8 +1381,7 @@
     </Item>
   </MainPart>
   <MainPart name="C2-2">
-    <Item name="DianaHM_TurningPoint">
-      <Item name="Dialogue">
+    <Item name="DianaHM_TurningPoint">     
         <Item name="10b">Ось такі мої умови - і ще, 10% використовуйте на покриття витрат на пошук отця Віторіо. І мені потрібні регулярні звіти про це.</Item>
         <Item name="11a">Ви вмієте укладати угоди - домовились, 47. Вітаємо в команді.</Item>
         <Item name="12b">Складіть контракт і я підпишу його. В гадаю, мої навички краще підходять для цього бізнесу ніж для садівництва.</Item>
@@ -1395,9 +1394,8 @@
         <Item name="7b">Добре - тоді потройте її і розмістіть у золоті. Передплату переводьте на мій звичайний офшорний рахунок.</Item>
         <Item name="8a">47... В... ви... це досить великі суми грошей...</Item>
         <Item name="9b">Правда. Але я не виконую прості вбивства, і до того ж мені потрібно захищати свою репутацію.</Item>Dіаlоguе
-      </Item>
     </Item>
-    <Item name="formatstring">Міssіоnвrіеfіng/Міssіоnвrіеfіng%d</Item>
+    <Item name="formatstring">Міssіоnbrіеfіng</Item>
     <Item name="Guards">
       <Item name="Actionmodefar1">Он він!</Item>
       <Item name="Actionmodefar2">Зупиніть його!</Item>
