@@ -10,7 +10,7 @@
       <Item name="ClimbOverWall">Перелізти через стіну</Item>
       <Item name="ClimbThroughWindow">Перелізти через вікно</Item>
       <Item name="Close">Закрити</Item>
-      <Item name="CloseDoor">Закрити двері</Item>
+      <Item name="CloseDoor">Зачинити двері</Item>
       <Item name="Deactivate">Деактивувати</Item>
       <Item name="DeactivateLaser">Деактивувати лазер</Item>
       <Item name="Drag">Тягнути</Item>
@@ -21,7 +21,7 @@
       <Item name="Holster">Кобура</Item>
       <Item name="NotEquipped" />
       <Item name="Open">Відкрити</Item>
-      <Item name="OpenDoor">Відкрити двері</Item>
+      <Item name="OpenDoor">Відчмнмти двері</Item>
       <Item name="PeekHole">Глянути через замок</Item>
       <Item name="PickLock">Відімкнути замок</Item>
       <Item name="Pickup">Взяти %s</Item>
