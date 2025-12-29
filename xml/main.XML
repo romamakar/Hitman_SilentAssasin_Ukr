@@ -4,7 +4,7 @@
     <Item name="Actions">
       <Item name="Activate">Активувати</Item>
       <Item name="Basement">Підвал</Item>
-      <Item name="CallAgency">Викликати агенцію</Item>
+      <Item name="CallAgency">Викликати аґенцію</Item>
       <Item name="CallElevator">Викликати ліфт</Item>
       <Item name="ChangeClothes">Змінити одяг</Item>
       <Item name="ClimbOverWall">Перелізти через стіну</Item>
